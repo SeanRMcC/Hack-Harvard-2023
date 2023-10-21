@@ -1,0 +1,13 @@
+{
+    "type": "service_account",
+    "project_id": "hackharvard2023-a5c7e",
+    "private_key_id": "04587bf991ea3fee9c3a9a1f8efabf17a5cfb7d7",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC3iKdopsXMU/sq\nEbzhzJWmEMfh22gCFMsfZM0OBu760U1H4yXxCVnRwZdVRyQqRhet3JoQCLbL1RiU\nC6bDAKB2QwCuLBa8z+BKy9IpAG8dqzk7V0yZ+z48ruNlCSY1Pbn9dof6bROFNbro\nJN8UMypKHuXlgB0K9m6Wq9KYkYmLVedX6vtQcLX6K02hN2Eqq0xdizcrVNmSbLw+\now25LoBkCyoFBJNkMmtCBUmhfwqZFQCyZV6HBHDHqvcBzmjC4CxH5phGslsJT+DN\nrXMTgGqmN88Y7wN3sImqHQ2f9RY/y3bKAh/igdT4Sb6j6kT9ZNkJGctFBYCj8/II\neiE2Hs2LAgMBAAECggEAHMqiQIeRFgnCqAnaUK3QeBm/0Y2i1li+uLEOffnWeaBl\n+DYJGLP31DEDdYxQfxU517t4q7VCP92xGmBti7/IbGT8cVZXRs1xiSpKUMZRqBzZ\nQJbkXG+OhuSEpa/2v3lsePekQ0PjQQ15wbsvB7MzGieYtxUO+U5JcPeJdQe3xRSz\nF35tRdZbuZNNVWNzGNadmLNGFObBwU5MMFlxwbHYnQ296MrViahufkq6Hz/p/AGl\nUnDNZ7STN71CseIwnz0dgWAgDI/Lb706bx+MU7m2YZVZwAE6LNORPNAmEHoGD4UI\nqavBMEofS9o/BeS/aByhrlT4CpJ2BzOxkpgIKVG9mQKBgQD6yT6gekOmaDNfHcQg\nQ/h1EiE90L/9AIYrrTQGF0s872R4zHxFypzqV6saJ6MVTQqoWepbvFtZB+lWSTQu\nDbS+79qeMVQtVoYTEBuxle75nIbmOdNEOKL9/I6hj3RZZU8B/vM094RgUuykEFfj\nYY13/yIujgnRIiJIplSLL+UO1QKBgQC7WXkqZiJD1msyjH6SMYf6DCuhDZGiE9qg\nCjv052T2JIm78IbzRjfzClf74hdKLyPvNuMMVzkklvuPXKxk2m1R137n9r6RT6sl\np5uUieSOXPB/KS/2LM6yFvMfO0EnY2kaqVU29lycKdHdSxe9ZQ9JD5QZ7Me6hXx7\nu+W5DOBa3wKBgQC8/WOAtCK/CM+N4nSmjBJ0xxDd8K5+DyMNTx1habR9Wzqv/gm4\n3pOZ1i9PKoevybs6W2hNcYi1c0zYhZoZCqMnMMHjbPEuqYGoY/86uO66lMbkQLeB\nNd0+4lDqV50qsTn1GxhU1iKgJF3I1bgl1qIxx8cOpmOngr2rWg1kRtercQKBgH2B\nN9E2cFffiRpo0dWfxsa0ZnnSfDAGetvhXz710EWwPnCfddf8vzhaQoyjbhStNbZn\nn3xB5i7j0gu8+mPpi3hbE1HTkuAHbdCg0nGUWn8gNaAJ+G5CoAjfpOjUKhZ32w4Y\nR9S0/19CCKvlRTcEP1QjUoR3gWkrSTQesIrh3F4jAoGBAMzQ6+dZBSrODrf5K2uV\nOf4DcPjMSx/GzaGrwScce736lQBFICkpW77gJ3vwmsf9LQ1p8IeNIilOx4uAN06G\naRU4UDUdEqrt59/hVi61zXT71lQNV3rVI+/YH8tV3GIdjac4VBgecJAV7yxFOLVk\nqwPrig/sG2kPEHnCWIvfgvks\n-----END PRIVATE KEY-----\n",
+    "client_email": "firebase-adminsdk-nukjc@hackharvard2023-a5c7e.iam.gserviceaccount.com",
+    "client_id": "116821888034555825195",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-nukjc%40hackharvard2023-a5c7e.iam.gserviceaccount.com",
+    "universe_domain": "googleapis.com"
+  }

@@ -8,8 +8,8 @@ export default function Button(){
     const data = {
         providers: "GARMIN,WITHINGS,FITBIT,GOOGLE,OURA,WAHOO,PELOTON,ZWIFT,TRAININGPEAKS,FREESTYLELIBRE,DEXCOM,COROS,HUAWEI,OMRON,RENPHO,POLAR,SUUNTO,EIGHT,APPLE,CONCEPT2,WHOOP,IFIT,TEMPO,CRONOMETER,FATSECRET,NUTRACHECK,UNDERARMOUR",
         language: "en",
-        auth_success_redirect_url: "http://localhost:8080",
-        auth_failure_redirect_url: "http://localhost:8080"
+        auth_success_redirect_url: "http://localhost:3000",
+        auth_failure_redirect_url: "http://localhost:3000"
     }
     const config = {
         "headers": {
