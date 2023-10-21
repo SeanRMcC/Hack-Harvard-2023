@@ -1,5 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+* {
+    font-family: 'Poppins';
+}
+
+nav {
+    border: 0.375rem solid black;
+    position: sticky;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 10%;
+}
+
 .footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin: 2rem;
+    border: 0.375rem solid red;
 }
