@@ -8,11 +8,10 @@ import './styles.css';
 import { usersCollection } from './firebase'
 import { addDoc, getDocs, updateDoc, onSnapshot, collection } from 'firebase/firestore'
 import { auth } from "./firebase"
-
 import Parse from './functions/Parse.js'
 import loading from './images/loading.gif';
-
 import { useEffect, useState } from 'react';
+
 function App() {
     // check if user is authenticated (decides what page to render)
     const [isAuthenticated, setIsAuthenticated] = React.useState(false)
@@ -20,25 +19,7 @@ function App() {
     const user = auth.currentUser
 
 
-  Parse()
   const [data, setData] = useState("");
-
-  useEffect(() => {
-    fetch("http://localhost:8000/webhook",
-    {
-      mode: "cors",
-      headers: {
-        accept: "application/json",
-        'Access-Control-Allow-Origin': 'http://localhost:3000/',
-        "origin": "*",
-        "content-type": "application/json",
-        'Access-Control-Allow-Methods': 'GET, PUT, POST, DELETE, OPTIONS'
-      }
-    }
-    )
-    .then(res => res.json())
-    .then(res => setData(JSON.stringify(res)));
-  });
 
     return ( 
         <div>
