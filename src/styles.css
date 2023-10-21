@@ -1,23 +1,37 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 
+:root {
+    --primary-color: #5392eb;
+    --secondary-color: #b461d2;
+  }
+
 * {
+    margin: 0.25rem;
+    padding: 0;
+    border: 0;
     font-family: 'Poppins';
+    border-radius: 2rem;
 }
 
 nav {
-    border: 0.375rem solid black;
+    margin: 0;
+    border: 0.375rem solid var(--primary-color);
     position: sticky;
 }
 
 nav ul {
     display: flex;
+    font-size: large;
+    font-weight: bold;
     list-style: none;
     justify-content: center;
     gap: 10%;
 }
 
 .footer {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    border: 0.375rem solid red;
+    display: flex;
+    column-gap: 40%;
+    flex-direction: row;
+    justify-content: center;
+    border: 0.375rem solid var(--secondary-color);
 }
