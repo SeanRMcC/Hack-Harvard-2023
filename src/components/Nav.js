@@ -6,7 +6,7 @@ function Nav() {
     return (
         <div className="navigation">
             <nav>
-                {/* Navigation bar content */}
+                {/* Navbar content */}
                 <ul>
                     <li><a href="/">Home</a></li>
                     <li><a href="/about">About</a></li>
