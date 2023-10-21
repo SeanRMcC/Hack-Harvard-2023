@@ -9,7 +9,7 @@ import { usersCollection } from './firebase'
 import { addDoc, getDocs, updateDoc, onSnapshot, collection } from 'firebase/firestore'
 import { auth } from "./firebase"
 
-import ParseAvgHeartRate from './functions/ParseAvgHeartRate.js'
+import Parse from './functions/Parse.js'
 import loading from './images/loading.gif';
 
 import { useEffect, useState } from 'react';
@@ -20,7 +20,7 @@ function App() {
     const user = auth.currentUser
 
 
-  ParseAvgHeartRate()
+  Parse()
   const [data, setData] = useState("");
 
   useEffect(() => {
@@ -40,17 +40,17 @@ function App() {
     .then(res => setData(JSON.stringify(res)));
   });
 
-  return ( 
-    <div>
-      <Nav />
-      {data === "" ? <img src={loading} alt="loading" /> : 
-      <div>
-        {data}
-      </div>}
-      {isAuthenticated || <Login />}
-      <Footer />
-    </div>
-  );
-}
+    return ( 
+        <div>
+            <Nav />
+            {isAuthenticated || <Login />}
+            {data === "" ? <img src={loading} alt="loading" /> : 
+            <div>
+                {data}
+            </div>}
+            <Footer />
+        </div>
+    );
+    }
 
 export default App;
