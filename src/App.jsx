@@ -2,11 +2,11 @@ import React from 'react';
 import Nav from './components/Nav';
 import Footer from './components/Footer';
 import './styles.css';
-import Parse from './functions/Parse.js'
+import ParseAvgHeartRate from './functions/ParseAvgHeartRate.js'
 
 function App() {
 
-  Parse()
+  ParseAvgHeartRate()
   return ( 
     <div>
       <Nav />

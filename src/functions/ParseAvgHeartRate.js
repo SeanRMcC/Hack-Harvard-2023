@@ -1,4 +1,4 @@
-import jsonData from './data/temp'
+import jsonData from './../data/temp'
 
 const data = jsonData.data;
 
