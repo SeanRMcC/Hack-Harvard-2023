@@ -1,5 +1,5 @@
 import axios from 'axios';
-
+import { ConnectToTerraButton } from '@tryterra/terra-ui'
 
 export default function Button(){
     const ID = "teanterra20-testing-Wc2O2RllNc";
@@ -7,7 +7,9 @@ export default function Button(){
     const API_ENDPOINT = "https://api.tryterra.co/v2/auth/generateWidgetSession";
     const data = {
         providers: "GARMIN,WITHINGS,FITBIT,GOOGLE,OURA,WAHOO,PELOTON,ZWIFT,TRAININGPEAKS,FREESTYLELIBRE,DEXCOM,COROS,HUAWEI,OMRON,RENPHO,POLAR,SUUNTO,EIGHT,APPLE,CONCEPT2,WHOOP,IFIT,TEMPO,CRONOMETER,FATSECRET,NUTRACHECK,UNDERARMOUR",
-        language: "en"
+        language: "en",
+        auth_success_redirect_url: "http://localhost:8080",
+        auth_failure_redirect_url: "http://localhost:8080"
     }
     const config = {
         "headers": {
@@ -21,12 +23,10 @@ export default function Button(){
     }
 
     return (
-        <button onClick={async () => {
+        <ConnectToTerraButton onClick={async () => {
                 const url = (await axios.post(API_ENDPOINT, data, config)).data.url;
                 window.location = url;
             }
-        }>
-            Connect!
-        </button>
+        }/>
     )   
 }
