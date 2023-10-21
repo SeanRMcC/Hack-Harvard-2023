@@ -1,4 +1,8 @@
+<<<<<<< HEAD
+export default function Graph() {
+=======
 import { lineGraphDays30, lineGraphDays14, barGraphDays7, barGraphDays3 } from './GraphCalls.jsx';
+>>>>>>> 3c1737a (Add graph features)
 
 function Graph() {
     // Replace with unique user_ID
