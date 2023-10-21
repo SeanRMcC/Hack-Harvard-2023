@@ -1,8 +1,12 @@
+import React from 'react';
+import Footer from './components/Footer';
+import './styles.css';
 
 function App() {
-  return ( <div>
-    App
-  </div>
+  return ( 
+    <div>
+      <Footer />
+    </div>
   );
 }
 
