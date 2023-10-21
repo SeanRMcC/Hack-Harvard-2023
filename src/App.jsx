@@ -2,7 +2,6 @@ import React from 'react';
 import Nav from './components/Nav';
 import Footer from './components/Footer';
 import Login from './components/Login'
-import Parse from "./functions/Parse"
 import './styles.css';
 
 // Firebase imports
@@ -11,7 +10,7 @@ import { addDoc, getDocs, updateDoc, onSnapshot, collection } from 'firebase/fir
 import { auth } from "./firebase"
 
 import ParseAvgHeartRate from './functions/ParseAvgHeartRate.js'
-import loading from './loading.gif';
+import loading from './images/loading.gif';
 
 import { useEffect, useState } from 'react';
 function App() {
@@ -40,7 +39,7 @@ function App() {
     .then(res => res.json())
     .then(res => setData(JSON.stringify(res)));
   });
-  
+
   return ( 
     <div>
       <Nav />
