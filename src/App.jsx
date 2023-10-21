@@ -1,12 +1,25 @@
 import React from 'react';
 import Nav from './components/Nav';
 import Footer from './components/Footer';
+import Login from './components/Login'
+import Parse from "./functions/Parse"
 import './styles.css';
+
+// Firebase imports
+import { usersCollection } from './firebase'
+import { addDoc, getDocs, updateDoc, onSnapshot, collection } from 'firebase/firestore'
+import { auth } from "./firebase"
+
 import ParseAvgHeartRate from './functions/ParseAvgHeartRate.js'
 import loading from './loading.gif';
 
 import { useEffect, useState } from 'react';
 function App() {
+    // check if user is authenticated (decides what page to render)
+    const [isAuthenticated, setIsAuthenticated] = React.useState(false)
+
+    const user = auth.currentUser
+
 
   ParseAvgHeartRate()
   const [data, setData] = useState("");
@@ -27,6 +40,7 @@ function App() {
     .then(res => res.json())
     .then(res => setData(JSON.stringify(res)));
   });
+  
   return ( 
     <div>
       <Nav />
@@ -34,6 +48,7 @@ function App() {
       <div>
         {data}
       </div>}
+      {isAuthenticated || <Login />}
       <Footer />
     </div>
   );

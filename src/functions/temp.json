@@ -1,0 +1,645 @@
+{
+    "data":[
+       {
+          "uuid":"bbc8c11b-9825-4313-bd84-88fe5d7efe1c",
+          "type":"web",
+          "token_id":"743b07a2-a33f-45d7-aec1-df5d9f285372",
+          "team_id":null,
+          "ip":"18.133.218.210",
+          "hostname":"webhook.site",
+          "method":"POST",
+          "user_agent":"python-requests\/2.26.0",
+          "content":"{\"user\": {\"user_id\": \"4d5d33f4-a271-4b2a-b6c7-41e346c03351\", \"provider\": \"GARMIN\", \"last_webhook_update\": null, \"scopes\": null, \"reference_id\": \"\"}, \"data\": [{\"energy_data\": {\"energy_planned_kilojoules\": null, \"energy_kilojoules\": null}, \"polyline_map_data\": {\"summary_polyline\": null}, \"heart_rate_data\": {\"detailed\": {\"hr_samples\": [{\"timestamp\": \"2023-10-21T01:54:56.824943+00:00\", \"bpm\": 62}, {\"timestamp\": \"2023-10-21T02:00:56.824943+00:00\", \"bpm\": 177}, {\"timestamp\": \"2023-10-21T02:06:56.824943+00:00\", \"bpm\": 172}, {\"timestamp\": \"2023-10-21T02:12:56.824943+00:00\", \"bpm\": 107}, {\"timestamp\": \"2023-10-21T02:18:56.824943+00:00\", \"bpm\": 176}, {\"timestamp\": \"2023-10-21T02:24:56.824943+00:00\", \"bpm\": 142}, {\"timestamp\": \"2023-10-21T02:30:56.824943+00:00\", \"bpm\": 105}, {\"timestamp\": \"2023-10-21T02:36:56.824943+00:00\", \"bpm\": 135}, {\"timestamp\": \"2023-10-21T02:42:56.824943+00:00\", \"bpm\": 141}, {\"timestamp\": \"2023-10-21T02:48:56.824943+00:00\", \"bpm\": 104}, {\"timestamp\": \"2023-10-21T02:54:56.824943+00:00\", \"bpm\": 134}], \"hrv_samples_rmssd\": [], \"hrv_samples_sdnn\": []}, \"summary\": {\"hr_zone_data\": [], \"min_hr_bpm\": 62, \"avg_hrv_rmssd\": null, \"user_max_hr_bpm\": null, \"max_hr_bpm\": 121.51099246568752, \"avg_hrv_sdnn\": null, \"resting_hr_bpm\": null, \"avg_hr_bpm\": 156.46357285673847}}, \"calories_data\": {\"net_activity_calories\": 250.38570393370983, \"total_burned_calories\": 1938.5939468803483, \"calorie_samples\": [], \"net_intake_calories\": null, \"BMR_calories\": null}, \"distance_data\": {\"detailed\": {\"floors_climbed_samples\": [], \"distance_samples\": [{\"distance_meters\": 0, \"timer_duration_seconds\": 0, \"timestamp\": \"2023-10-21T01:54:56.824943+00:00\"}, {\"distance_meters\": 41.56194085736195, \"timer_duration_seconds\": 6, \"timestamp\": \"2023-10-21T02:00:56.824943+00:00\"}, {\"distance_meters\": 51.91509525013096, \"timer_duration_seconds\": 12, \"timestamp\": \"2023-10-21T02:06:56.824943+00:00\"}, {\"distance_meters\": 105.07096249103685, \"timer_duration_seconds\": 18, \"timestamp\": \"2023-10-21T02:12:56.824943+00:00\"}, {\"distance_meters\": 136.4201928917638, \"timer_duration_seconds\": 24, \"timestamp\": \"2023-10-21T02:18:56.824943+00:00\"}, {\"distance_meters\": 193.69757068824856, \"timer_duration_seconds\": 30, \"timestamp\": \"2023-10-21T02:24:56.824943+00:00\"}, {\"distance_meters\": 219.88904996093862, \"timer_duration_seconds\": 36, \"timestamp\": \"2023-10-21T02:30:56.824943+00:00\"}, {\"distance_meters\": 265.9844565301445, \"timer_duration_seconds\": 42, \"timestamp\": \"2023-10-21T02:36:56.824943+00:00\"}, {\"distance_meters\": 283.8549012734154, \"timer_duration_seconds\": 48, \"timestamp\": \"2023-10-21T02:42:56.824943+00:00\"}, {\"distance_meters\": 343.584605590163, \"timer_duration_seconds\": 54, \"timestamp\": \"2023-10-21T02:48:56.824943+00:00\"}, {\"distance_meters\": 372.0794540692798, \"timer_duration_seconds\": 60, \"timestamp\": \"2023-10-21T02:54:56.824943+00:00\"}], \"elevation_samples\": [{\"elev_meters\": 0, \"timer_duration_seconds\": 0, \"timestamp\": \"2023-10-21T01:54:56.824943+00:00\"}, {\"elev_meters\": 22.612135625821796, \"timer_duration_seconds\": 6, \"timestamp\": \"2023-10-21T02:00:56.824943+00:00\"}, {\"elev_meters\": 39.39839351154829, \"timer_duration_seconds\": 12, \"timestamp\": \"2023-10-21T02:06:56.824943+00:00\"}, {\"elev_meters\": 93.86418720128106, \"timer_duration_seconds\": 18, \"timestamp\": \"2023-10-21T02:12:56.824943+00:00\"}, {\"elev_meters\": 127.97263500320707, \"timer_duration_seconds\": 24, \"timestamp\": \"2023-10-21T02:18:56.824943+00:00\"}, {\"elev_meters\": 164.65319165089227, \"timer_duration_seconds\": 30, \"timestamp\": \"2023-10-21T02:24:56.824943+00:00\"}, {\"elev_meters\": 209.048492654413, \"timer_duration_seconds\": 36, \"timestamp\": \"2023-10-21T02:30:56.824943+00:00\"}, {\"elev_meters\": 268.1380727338234, \"timer_duration_seconds\": 42, \"timestamp\": \"2023-10-21T02:36:56.824943+00:00\"}, {\"elev_meters\": 296.66059178372024, \"timer_duration_seconds\": 48, \"timestamp\": \"2023-10-21T02:42:56.824943+00:00\"}, {\"elev_meters\": 324.25788193371085, \"timer_duration_seconds\": 54, \"timestamp\": \"2023-10-21T02:48:56.824943+00:00\"}, {\"elev_meters\": 374.5826593840973, \"timer_duration_seconds\": 60, \"timestamp\": \"2023-10-21T02:54:56.824943+00:00\"}], \"step_samples\": []}, \"summary\": {\"swimming\": {\"num_laps\": 12, \"num_strokes\": 215, \"pool_length_meters\": null}, \"elevation\": {\"avg_meters\": 174.65347649841047, \"loss_actual_meters\": 0, \"max_meters\": 56.97342934859747, \"gain_planned_meters\": null, \"min_meters\": 19.272229935308545, \"gain_actual_meters\": 374.5826593840973}, \"floors_climbed\": null, \"steps\": 6180, \"distance_meters\": 421.23729837711323}}, \"movement_data\": {\"avg_speed_meters_per_second\": 13.72982043332934, \"max_speed_meters_per_second\": 0.747178593018315, \"cadence_samples\": [], \"adjusted_max_speed_meters_per_second\": 0, \"max_cadence_rpm\": 25.559354128442806, \"avg_pace_minutes_per_kilometer\": null, \"normalized_speed_meters_per_second\": null, \"avg_cadence_rpm\": 52.192625905695124, \"max_torque_newton_meters\": null, \"torque_samples\": [], \"max_pace_minutes_per_kilometer\": null, \"max_velocity_meters_per_second\": null, \"avg_velocity_meters_per_second\": null, \"avg_torque_newton_meters\": null, \"speed_samples\": [{\"speed_meters_per_second\": 7.077965139578817, \"timer_duration_seconds\": null, \"timestamp\": \"2023-10-21T01:54:56.824943+00:00\"}, {\"speed_meters_per_second\": 10.02042481509413, \"timer_duration_seconds\": null, \"timestamp\": \"2023-10-21T02:00:56.824943+00:00\"}, {\"speed_meters_per_second\": 6.080924299448172, \"timer_duration_seconds\": null, \"timestamp\": \"2023-10-21T02:06:56.824943+00:00\"}, {\"speed_meters_per_second\": 6.299695026517204, \"timer_duration_seconds\": null, \"timestamp\": \"2023-10-21T02:12:56.824943+00:00\"}, {\"speed_meters_per_second\": 9.590405025433043, \"timer_duration_seconds\": null, \"timestamp\": \"2023-10-21T02:18:56.824943+00:00\"}, {\"speed_meters_per_second\": 5.673575182232345, \"timer_duration_seconds\": null, \"timestamp\": \"2023-10-21T02:24:56.824943+00:00\"}, {\"speed_meters_per_second\": 8.061297658019177, \"timer_duration_seconds\": null, \"timestamp\": \"2023-10-21T02:30:56.824943+00:00\"}, {\"speed_meters_per_second\": 6.641927244115942, \"timer_duration_seconds\": null, \"timestamp\": \"2023-10-21T02:36:56.824943+00:00\"}, {\"speed_meters_per_second\": 13.041391763735321, \"timer_duration_seconds\": null, \"timestamp\": \"2023-10-21T02:42:56.824943+00:00\"}, {\"speed_meters_per_second\": 13.34118608159393, \"timer_duration_seconds\": null, \"timestamp\": \"2023-10-21T02:48:56.824943+00:00\"}, {\"speed_meters_per_second\": 13.026118145286826, \"timer_duration_seconds\": null, \"timestamp\": \"2023-10-21T02:54:56.824943+00:00\"}]}, \"position_data\": {\"end_pos_lat_lng_deg\": [52.135608832989654, 1.345303852776187], \"start_pos_lat_lng_deg\": [52.751770878038606, 0.5562561664920541], \"center_pos_lat_lng_deg\": [52.778285908415896, 0.9779789734477387], \"position_samples\": [{\"timer_duration_seconds\": 0, \"timestamp\": \"2023-10-21T01:54:56.824943+00:00\", \"coords_lat_lng_deg\": [52.68869499201421, 1.0929530373302148]}, {\"timer_duration_seconds\": 6, \"timestamp\": \"2023-10-21T02:00:56.824943+00:00\", \"coords_lat_lng_deg\": [52.62802293080339, 0.7309374241364287]}, {\"timer_duration_seconds\": 12, \"timestamp\": \"2023-10-21T02:06:56.824943+00:00\", \"coords_lat_lng_deg\": [52.72258924042349, 0.8635833246906197]}, {\"timer_duration_seconds\": 18, \"timestamp\": \"2023-10-21T02:12:56.824943+00:00\", \"coords_lat_lng_deg\": [52.619503345766404, 0.7649767578980302]}, {\"timer_duration_seconds\": 24, \"timestamp\": \"2023-10-21T02:18:56.824943+00:00\", \"coords_lat_lng_deg\": [52.668907465972424, 0.905803877990417]}, {\"timer_duration_seconds\": 30, \"timestamp\": \"2023-10-21T02:24:56.824943+00:00\", \"coords_lat_lng_deg\": [52.778285908415896, 0.9779789734477387]}, {\"timer_duration_seconds\": 36, \"timestamp\": \"2023-10-21T02:30:56.824943+00:00\", \"coords_lat_lng_deg\": [52.74455359163979, 1.1195748219955115]}, {\"timer_duration_seconds\": 42, \"timestamp\": \"2023-10-21T02:36:56.824943+00:00\", \"coords_lat_lng_deg\": [52.739422073431044, 0.4155597220764867]}, {\"timer_duration_seconds\": 48, \"timestamp\": \"2023-10-21T02:42:56.824943+00:00\", \"coords_lat_lng_deg\": [52.75275521681822, 0.8796584169787232]}, {\"timer_duration_seconds\": 54, \"timestamp\": \"2023-10-21T02:48:56.824943+00:00\", \"coords_lat_lng_deg\": [52.71600496181103, 1.1883928857520036]}, {\"timer_duration_seconds\": 60, \"timestamp\": \"2023-10-21T02:54:56.824943+00:00\", \"coords_lat_lng_deg\": [52.61888840031642, 0.5135603416823643]}]}, \"oxygen_data\": {\"vo2_samples\": [], \"saturation_samples\": [], \"avg_saturation_percentage\": null, \"vo2max_ml_per_min_per_kg\": null}, \"power_data\": {\"max_watts\": 44.04344552032579, \"avg_watts\": 33.17393687576296, \"power_samples\": [{\"timer_duration_seconds\": 0, \"watts\": 50.83093199338088, \"timestamp\": \"2023-10-21T01:54:56.824943+00:00\"}, {\"timer_duration_seconds\": 6, \"watts\": 54.89104606502742, \"timestamp\": \"2023-10-21T02:00:56.824943+00:00\"}, {\"timer_duration_seconds\": 12, \"watts\": 41.09041670386098, \"timestamp\": \"2023-10-21T02:06:56.824943+00:00\"}, {\"timer_duration_seconds\": 18, \"watts\": 21.212640858118093, \"timestamp\": \"2023-10-21T02:12:56.824943+00:00\"}, {\"timer_duration_seconds\": 24, \"watts\": 41.5333188229715, \"timestamp\": \"2023-10-21T02:18:56.824943+00:00\"}, {\"timer_duration_seconds\": 30, \"watts\": 19.11209425220208, \"timestamp\": \"2023-10-21T02:24:56.824943+00:00\"}, {\"timer_duration_seconds\": 36, \"watts\": 33.9237926203932, \"timestamp\": \"2023-10-21T02:30:56.824943+00:00\"}, {\"timer_duration_seconds\": 42, \"watts\": 11.96936322397907, \"timestamp\": \"2023-10-21T02:36:56.824943+00:00\"}, {\"timer_duration_seconds\": 48, \"watts\": 47.72536033304909, \"timestamp\": \"2023-10-21T02:42:56.824943+00:00\"}, {\"timer_duration_seconds\": 54, \"watts\": 56.10903233985384, \"timestamp\": \"2023-10-21T02:48:56.824943+00:00\"}, {\"timer_duration_seconds\": 60, \"watts\": 40.39736096019921, \"timestamp\": \"2023-10-21T02:54:56.824943+00:00\"}]}, \"lap_data\": {\"laps\": []}, \"TSS_data\": {\"TSS_samples\": []}, \"metadata\": {\"start_time\": \"2023-10-21T01:54:56.824943+00:00\", \"summary_id\": \"210704242802\", \"country\": null, \"upload_type\": 5, \"end_time\": \"2023-10-21T02:54:56.824943+00:00\", \"city\": null, \"type\": 81, \"state\": null, \"name\": \"Stairmaster\"}, \"cheat_detection\": null, \"active_durations_data\": {\"standing_seconds\": null, \"moderate_intensity_seconds\": null, \"standing_hours_count\": null, \"vigorous_intensity_seconds\": null, \"low_intensity_seconds\": null, \"num_continuous_inactive_periods\": null, \"activity_levels_samples\": [], \"inactivity_seconds\": null, \"rest_seconds\": null, \"activity_seconds\": 1964.7786971677986}, \"strain_data\": {\"strain_level\": null}, \"device_data\": {\"software_version\": null, \"activation_timestamp\": null, \"manufacturer\": \"Terra\", \"other_devices\": [], \"hardware_version\": null, \"serial_number\": \"209292\", \"name\": \"Random device name\", \"data_provided\": []}, \"work_data\": {\"work_kilojoules\": null}, \"MET_data\": {\"num_inactive_minutes\": null, \"avg_level\": null, \"num_moderate_intensity_minutes\": null, \"num_low_intensity_minutes\": null, \"MET_samples\": [], \"num_high_intensity_minutes\": null}}], \"type\": \"activity\", \"version\": \"2022-03-16\"}",
+          "query":null,
+          "headers":{
+             "connection":[
+                "close"
+             ],
+             "traceparent":[
+                "00-31f957a2cb4baa01eb70362319f22073-45761ef337b901f3-01"
+             ],
+             "content-type":[
+                "application\/json"
+             ],
+             "content-length":[
+                "10989"
+             ],
+             "provider":[
+                "GARMIN"
+             ],
+             "terra-reference":[
+                "0978c928-5825-4826-b9dc-c6b56cabd314"
+             ],
+             "take-a-break":[
+                "Totally safe link: https:\/\/ichef.bbci.co.uk\/news\/976\/cpsprodpb\/7727\/production\/_103330503_musk3.jpg"
+             ],
+             "spread-the-word":[
+                "Think we are Terra-fic? Tell others! Or link them to: dev@tryterra.co!"
+             ],
+             "no-lies":[
+                "Tell us how much you love [or hate :'( ] us at dev@tryterra.co"
+             ],
+             "hook-type":[
+                "WEBHOOK"
+             ],
+             "type":[
+                "activity"
+             ],
+             "user-id":[
+                ""
+             ],
+             "dev-id":[
+                "teanterra20-testing-Wc2O2RllNc"
+             ],
+             "terra-signature":[
+                "t=1697893983,v1=b32cf9094d3c83400cb52e1123ddd9ef0a0c747434b4e3c439c27ac6492e9c96"
+             ],
+             "accept":[
+                "*\/*"
+             ],
+             "accept-encoding":[
+                "gzip, deflate, br"
+             ],
+             "user-agent":[
+                "python-requests\/2.26.0"
+             ],
+             "host":[
+                "webhook.site"
+             ]
+          },
+          "url":"https:\/\/webhook.site\/743b07a2-a33f-45d7-aec1-df5d9f285372",
+          "size":10989,
+          "files":[
+             
+          ],
+          "created_at":"2023-10-21 13:13:03",
+          "updated_at":"2023-10-21 13:13:03",
+          "sorting":1697893983307366,
+          "custom_action_output":[
+             
+          ]
+       },
+       {
+          "uuid":"a6948b8a-024a-42ca-9ca9-997deab2783d",
+          "type":"web",
+          "token_id":"743b07a2-a33f-45d7-aec1-df5d9f285372",
+          "team_id":null,
+          "ip":"18.133.218.210",
+          "hostname":"webhook.site",
+          "method":"POST",
+          "user_agent":"python-requests\/2.26.0",
+          "content":"{\"user\": {\"user_id\": \"8a7933aa-e565-4978-b1d0-3b29636e95e8\", \"provider\": \"GARMIN\", \"last_webhook_update\": null, \"scopes\": null, \"reference_id\": \"\"}, \"data\": [{\"energy_data\": {\"energy_planned_kilojoules\": null, \"energy_kilojoules\": null}, \"polyline_map_data\": {\"summary_polyline\": null}, \"heart_rate_data\": {\"detailed\": {\"hr_samples\": [{\"timestamp\": \"2023-10-21T02:36:21.404461+00:00\", \"bpm\": 178}, {\"timestamp\": \"2023-10-21T02:41:21.404461+00:00\", \"bpm\": 153}, {\"timestamp\": \"2023-10-21T02:46:21.404461+00:00\", \"bpm\": 92}, {\"timestamp\": \"2023-10-21T02:51:21.404461+00:00\", \"bpm\": 151}, {\"timestamp\": \"2023-10-21T02:56:21.404461+00:00\", \"bpm\": 64}, {\"timestamp\": \"2023-10-21T03:01:21.404461+00:00\", \"bpm\": 106}, {\"timestamp\": \"2023-10-21T03:06:21.404461+00:00\", \"bpm\": 76}, {\"timestamp\": \"2023-10-21T03:11:21.404461+00:00\", \"bpm\": 93}, {\"timestamp\": \"2023-10-21T03:16:21.404461+00:00\", \"bpm\": 102}, {\"timestamp\": \"2023-10-21T03:21:21.404461+00:00\", \"bpm\": 127}, {\"timestamp\": \"2023-10-21T03:26:21.404461+00:00\", \"bpm\": 68}, {\"timestamp\": \"2023-10-21T03:31:21.404461+00:00\", \"bpm\": 136}, {\"timestamp\": \"2023-10-21T03:36:21.404461+00:00\", \"bpm\": 161}], \"hrv_samples_rmssd\": [], \"hrv_samples_sdnn\": []}, \"summary\": {\"hr_zone_data\": [], \"min_hr_bpm\": 64, \"avg_hrv_rmssd\": null, \"user_max_hr_bpm\": null, \"max_hr_bpm\": 119.03215667875025, \"avg_hrv_sdnn\": null, \"resting_hr_bpm\": null, \"avg_hr_bpm\": 68.45403107041432}}, \"calories_data\": {\"net_activity_calories\": 540.9032755651167, \"total_burned_calories\": 1316.4923343361195, \"calorie_samples\": [], \"net_intake_calories\": null, \"BMR_calories\": null}, \"distance_data\": {\"detailed\": {\"floors_climbed_samples\": [], \"distance_samples\": [{\"distance_meters\": 0, \"timer_duration_seconds\": 0, \"timestamp\": \"2023-10-21T02:36:21.404461+00:00\"}, {\"distance_meters\": 24.59371740518989, \"timer_duration_seconds\": 5, \"timestamp\": \"2023-10-21T02:41:21.404461+00:00\"}, {\"distance_meters\": 57.58379639506899, \"timer_duration_seconds\": 10, \"timestamp\": \"2023-10-21T02:46:21.404461+00:00\"}, {\"distance_meters\": 72.25223288687108, \"timer_duration_seconds\": 15, \"timestamp\": \"2023-10-21T02:51:21.404461+00:00\"}, {\"distance_meters\": 101.01425102831378, \"timer_duration_seconds\": 20, \"timestamp\": \"2023-10-21T02:56:21.404461+00:00\"}, {\"distance_meters\": 114.7839714441747, \"timer_duration_seconds\": 25, \"timestamp\": \"2023-10-21T03:01:21.404461+00:00\"}, {\"distance_meters\": 128.6925789128229, \"timer_duration_seconds\": 30, \"timestamp\": \"2023-10-21T03:06:21.404461+00:00\"}, {\"distance_meters\": 183.93003434417264, \"timer_duration_seconds\": 35, \"timestamp\": \"2023-10-21T03:11:21.404461+00:00\"}, {\"distance_meters\": 224.3983200984613, \"timer_duration_seconds\": 40, \"timestamp\": \"2023-10-21T03:16:21.404461+00:00\"}, {\"distance_meters\": 283.35002149534955, \"timer_duration_seconds\": 45, \"timestamp\": \"2023-10-21T03:21:21.404461+00:00\"}, {\"distance_meters\": 342.52989302312824, \"timer_duration_seconds\": 50, \"timestamp\": \"2023-10-21T03:26:21.404461+00:00\"}, {\"distance_meters\": 373.9153274535443, \"timer_duration_seconds\": 55, \"timestamp\": \"2023-10-21T03:31:21.404461+00:00\"}, {\"distance_meters\": 416.0755363768371, \"timer_duration_seconds\": 60, \"timestamp\": \"2023-10-21T03:36:21.404461+00:00\"}], \"elevation_samples\": [{\"elev_meters\": 0, \"timer_duration_seconds\": 0, \"timestamp\": \"2023-10-21T02:36:21.404461+00:00\"}, {\"elev_meters\": 46.55096375409818, \"timer_duration_seconds\": 5, \"timestamp\": \"2023-10-21T02:41:21.404461+00:00\"}, {\"elev_meters\": 82.33432607511058, \"timer_duration_seconds\": 10, \"timestamp\": \"2023-10-21T02:46:21.404461+00:00\"}, {\"elev_meters\": 141.22512841888187, \"timer_duration_seconds\": 15, \"timestamp\": \"2023-10-21T02:51:21.404461+00:00\"}, {\"elev_meters\": 194.6726508166962, \"timer_duration_seconds\": 20, \"timestamp\": \"2023-10-21T02:56:21.404461+00:00\"}, {\"elev_meters\": 210.4642052196383, \"timer_duration_seconds\": 25, \"timestamp\": \"2023-10-21T03:01:21.404461+00:00\"}, {\"elev_meters\": 238.84713132003657, \"timer_duration_seconds\": 30, \"timestamp\": \"2023-10-21T03:06:21.404461+00:00\"}, {\"elev_meters\": 249.8167906303918, \"timer_duration_seconds\": 35, \"timestamp\": \"2023-10-21T03:11:21.404461+00:00\"}, {\"elev_meters\": 273.15953936435517, \"timer_duration_seconds\": 40, \"timestamp\": \"2023-10-21T03:16:21.404461+00:00\"}, {\"elev_meters\": 332.44942344731066, \"timer_duration_seconds\": 45, \"timestamp\": \"2023-10-21T03:21:21.404461+00:00\"}, {\"elev_meters\": 384.4719690844061, \"timer_duration_seconds\": 50, \"timestamp\": \"2023-10-21T03:26:21.404461+00:00\"}, {\"elev_meters\": 404.32575762478785, \"timer_duration_seconds\": 55, \"timestamp\": \"2023-10-21T03:31:21.404461+00:00\"}, {\"elev_meters\": 420.6755289628403, \"timer_duration_seconds\": 60, \"timestamp\": \"2023-10-21T03:36:21.404461+00:00\"}], \"step_samples\": []}, \"summary\": {\"swimming\": {\"num_laps\": 6, \"num_strokes\": 150, \"pool_length_meters\": null}, \"elevation\": {\"avg_meters\": 229.15333959373493, \"loss_actual_meters\": 0, \"max_meters\": 58.65459120844118, \"gain_planned_meters\": null, \"min_meters\": 23.076381318117566, \"gain_actual_meters\": 420.6755289628403}, \"floors_climbed\": null, \"steps\": 3029, \"distance_meters\": 456.5872202832571}}, \"movement_data\": {\"avg_speed_meters_per_second\": 14.17792877702342, \"max_speed_meters_per_second\": 14.480359636378376, \"cadence_samples\": [], \"adjusted_max_speed_meters_per_second\": 12.409924383056971, \"max_cadence_rpm\": 40.72159709990348, \"avg_pace_minutes_per_kilometer\": null, \"normalized_speed_meters_per_second\": null, \"avg_cadence_rpm\": 32.41463331964316, \"max_torque_newton_meters\": null, \"torque_samples\": [], \"max_pace_minutes_per_kilometer\": null, \"max_velocity_meters_per_second\": null, \"avg_velocity_meters_per_second\": null, \"avg_torque_newton_meters\": null, \"speed_samples\": [{\"speed_meters_per_second\": 9.209539908425345, \"timer_duration_seconds\": null, \"timestamp\": \"2023-10-21T02:36:21.404461+00:00\"}, {\"speed_meters_per_second\": 7.054767412431517, \"timer_duration_seconds\": null, \"timestamp\": \"2023-10-21T02:41:21.404461+00:00\"}, {\"speed_meters_per_second\": 9.204249154876315, \"timer_duration_seconds\": null, \"timestamp\": \"2023-10-21T02:46:21.404461+00:00\"}, {\"speed_meters_per_second\": 9.253362905811992, \"timer_duration_seconds\": null, \"timestamp\": \"2023-10-21T02:51:21.404461+00:00\"}, {\"speed_meters_per_second\": 8.671940682711732, \"timer_duration_seconds\": null, \"timestamp\": \"2023-10-21T02:56:21.404461+00:00\"}, {\"speed_meters_per_second\": 7.0492993927729275, \"timer_duration_seconds\": null, \"timestamp\": \"2023-10-21T03:01:21.404461+00:00\"}, {\"speed_meters_per_second\": 12.409924383056971, \"timer_duration_seconds\": null, \"timestamp\": \"2023-10-21T03:06:21.404461+00:00\"}, {\"speed_meters_per_second\": 5.3128071749053865, \"timer_duration_seconds\": null, \"timestamp\": \"2023-10-21T03:11:21.404461+00:00\"}, {\"speed_meters_per_second\": 12.235864634418139, \"timer_duration_seconds\": null, \"timestamp\": \"2023-10-21T03:16:21.404461+00:00\"}, {\"speed_meters_per_second\": 14.46259796720384, \"timer_duration_seconds\": null, \"timestamp\": \"2023-10-21T03:21:21.404461+00:00\"}, {\"speed_meters_per_second\": 10.911128395644878, \"timer_duration_seconds\": null, \"timestamp\": \"2023-10-21T03:26:21.404461+00:00\"}, {\"speed_meters_per_second\": 13.986369453753104, \"timer_duration_seconds\": null, \"timestamp\": \"2023-10-21T03:31:21.404461+00:00\"}, {\"speed_meters_per_second\": 13.970764788883683, \"timer_duration_seconds\": null, \"timestamp\": \"2023-10-21T03:36:21.404461+00:00\"}]}, \"position_data\": {\"end_pos_lat_lng_deg\": [52.12405986638635, 1.2504222134710103], \"start_pos_lat_lng_deg\": [52.7656281412712, 1.1527187716874636], \"center_pos_lat_lng_deg\": [52.63177717467014, 1.028418482414863], \"position_samples\": [{\"timer_duration_seconds\": 0, \"timestamp\": \"2023-10-21T02:36:21.404461+00:00\", \"coords_lat_lng_deg\": [52.76904559370649, 1.1753199017148517]}, {\"timer_duration_seconds\": 5, \"timestamp\": \"2023-10-21T02:41:21.404461+00:00\", \"coords_lat_lng_deg\": [52.64812659980004, 0.3852546900171856]}, {\"timer_duration_seconds\": 10, \"timestamp\": \"2023-10-21T02:46:21.404461+00:00\", \"coords_lat_lng_deg\": [52.76948034036398, 0.8986598376985044]}, {\"timer_duration_seconds\": 15, \"timestamp\": \"2023-10-21T02:51:21.404461+00:00\", \"coords_lat_lng_deg\": [52.77803378981133, 0.5825271320980439]}, {\"timer_duration_seconds\": 20, \"timestamp\": \"2023-10-21T02:56:21.404461+00:00\", \"coords_lat_lng_deg\": [52.609084402709406, 0.7420362255305764]}, {\"timer_duration_seconds\": 25, \"timestamp\": \"2023-10-21T03:01:21.404461+00:00\", \"coords_lat_lng_deg\": [52.76779012880114, 0.44799429439579136]}, {\"timer_duration_seconds\": 30, \"timestamp\": \"2023-10-21T03:06:21.404461+00:00\", \"coords_lat_lng_deg\": [52.63177717467014, 1.028418482414863]}, {\"timer_duration_seconds\": 35, \"timestamp\": \"2023-10-21T03:11:21.404461+00:00\", \"coords_lat_lng_deg\": [52.73075944979193, 0.6889210001023163]}, {\"timer_duration_seconds\": 40, \"timestamp\": \"2023-10-21T03:16:21.404461+00:00\", \"coords_lat_lng_deg\": [52.70263351891364, 1.060072722119365]}, {\"timer_duration_seconds\": 45, \"timestamp\": \"2023-10-21T03:21:21.404461+00:00\", \"coords_lat_lng_deg\": [52.67960527237734, 0.8564395811248569]}, {\"timer_duration_seconds\": 50, \"timestamp\": \"2023-10-21T03:26:21.404461+00:00\", \"coords_lat_lng_deg\": [52.74850630206676, 0.6994277996136753]}, {\"timer_duration_seconds\": 55, \"timestamp\": \"2023-10-21T03:31:21.404461+00:00\", \"coords_lat_lng_deg\": [52.70071408760997, 1.0173225584873102]}, {\"timer_duration_seconds\": 60, \"timestamp\": \"2023-10-21T03:36:21.404461+00:00\", \"coords_lat_lng_deg\": [52.72761090844887, 1.187527568408413]}]}, \"oxygen_data\": {\"vo2_samples\": [], \"saturation_samples\": [], \"avg_saturation_percentage\": null, \"vo2max_ml_per_min_per_kg\": null}, \"power_data\": {\"max_watts\": 49.88734863479378, \"avg_watts\": 38.474801069219154, \"power_samples\": [{\"timer_duration_seconds\": 0, \"watts\": 32.223184917634285, \"timestamp\": \"2023-10-21T02:36:21.404461+00:00\"}, {\"timer_duration_seconds\": 5, \"watts\": 46.746457106573466, \"timestamp\": \"2023-10-21T02:41:21.404461+00:00\"}, {\"timer_duration_seconds\": 10, \"watts\": 16.134701835510185, \"timestamp\": \"2023-10-21T02:46:21.404461+00:00\"}, {\"timer_duration_seconds\": 15, \"watts\": 23.80597444434073, \"timestamp\": \"2023-10-21T02:51:21.404461+00:00\"}, {\"timer_duration_seconds\": 20, \"watts\": 57.57307377938446, \"timestamp\": \"2023-10-21T02:56:21.404461+00:00\"}, {\"timer_duration_seconds\": 25, \"watts\": 34.69827536834277, \"timestamp\": \"2023-10-21T03:01:21.404461+00:00\"}, {\"timer_duration_seconds\": 30, \"watts\": 30.342079116111943, \"timestamp\": \"2023-10-21T03:06:21.404461+00:00\"}, {\"timer_duration_seconds\": 35, \"watts\": 33.799851838722816, \"timestamp\": \"2023-10-21T03:11:21.404461+00:00\"}, {\"timer_duration_seconds\": 40, \"watts\": 56.581845979835336, \"timestamp\": \"2023-10-21T03:16:21.404461+00:00\"}, {\"timer_duration_seconds\": 45, \"watts\": 53.48832199666095, \"timestamp\": \"2023-10-21T03:21:21.404461+00:00\"}, {\"timer_duration_seconds\": 50, \"watts\": 10.002778163079553, \"timestamp\": \"2023-10-21T03:26:21.404461+00:00\"}, {\"timer_duration_seconds\": 55, \"watts\": 47.373971569609346, \"timestamp\": \"2023-10-21T03:31:21.404461+00:00\"}, {\"timer_duration_seconds\": 60, \"watts\": 56.646618926038144, \"timestamp\": \"2023-10-21T03:36:21.404461+00:00\"}]}, \"lap_data\": {\"laps\": []}, \"TSS_data\": {\"TSS_samples\": []}, \"metadata\": {\"start_time\": \"2023-10-21T02:36:21.404461+00:00\", \"summary_id\": \"94901244615\", \"country\": null, \"upload_type\": 3, \"end_time\": \"2023-10-21T03:38:21.404461+00:00\", \"city\": null, \"type\": 17, \"state\": null, \"name\": \"Sailing\"}, \"cheat_detection\": null, \"active_durations_data\": {\"standing_seconds\": null, \"moderate_intensity_seconds\": null, \"standing_hours_count\": null, \"vigorous_intensity_seconds\": null, \"low_intensity_seconds\": null, \"num_continuous_inactive_periods\": null, \"activity_levels_samples\": [], \"inactivity_seconds\": null, \"rest_seconds\": null, \"activity_seconds\": 2168.584721411673}, \"strain_data\": {\"strain_level\": null}, \"device_data\": {\"software_version\": null, \"activation_timestamp\": null, \"manufacturer\": \"Terra\", \"other_devices\": [], \"hardware_version\": null, \"serial_number\": \"948349\", \"name\": \"Random device name\", \"data_provided\": []}, \"work_data\": {\"work_kilojoules\": null}, \"MET_data\": {\"num_inactive_minutes\": null, \"avg_level\": null, \"num_moderate_intensity_minutes\": null, \"num_low_intensity_minutes\": null, \"MET_samples\": [], \"num_high_intensity_minutes\": null}}], \"type\": \"activity\", \"version\": \"2022-03-16\"}",
+          "query":null,
+          "headers":{
+             "connection":[
+                "close"
+             ],
+             "traceparent":[
+                "00-a8e5dedef7b5066fb54a3dd4bfae79fa-a7c2484a37b8a222-01"
+             ],
+             "content-type":[
+                "application\/json"
+             ],
+             "content-length":[
+                "12360"
+             ],
+             "provider":[
+                "GARMIN"
+             ],
+             "terra-reference":[
+                "32869de5-d100-432e-b5a3-70aa2e1a89a4"
+             ],
+             "take-a-break":[
+                "Totally safe link: https:\/\/ichef.bbci.co.uk\/news\/976\/cpsprodpb\/7727\/production\/_103330503_musk3.jpg"
+             ],
+             "spread-the-word":[
+                "Think we are Terra-fic? Tell others! Or link them to: dev@tryterra.co!"
+             ],
+             "no-lies":[
+                "Tell us how much you love [or hate :'( ] us at dev@tryterra.co"
+             ],
+             "hook-type":[
+                "WEBHOOK"
+             ],
+             "type":[
+                "activity"
+             ],
+             "user-id":[
+                ""
+             ],
+             "dev-id":[
+                "teanterra20-testing-Wc2O2RllNc"
+             ],
+             "terra-signature":[
+                "t=1697894008,v1=120cdf140436ea53e7ef4b6cc0024368fc7c671da56e6f81d6103b1c7a72240a"
+             ],
+             "accept":[
+                "*\/*"
+             ],
+             "accept-encoding":[
+                "gzip, deflate, br"
+             ],
+             "user-agent":[
+                "python-requests\/2.26.0"
+             ],
+             "host":[
+                "webhook.site"
+             ]
+          },
+          "url":"https:\/\/webhook.site\/743b07a2-a33f-45d7-aec1-df5d9f285372",
+          "size":12360,
+          "files":[
+             
+          ],
+          "created_at":"2023-10-21 13:13:28",
+          "updated_at":"2023-10-21 13:13:28",
+          "sorting":1697894008405022,
+          "custom_action_output":[
+             
+          ]
+       },
+       {
+          "uuid":"d64243ef-0764-407e-821c-e8b1793dde54",
+          "type":"web",
+          "token_id":"743b07a2-a33f-45d7-aec1-df5d9f285372",
+          "team_id":null,
+          "ip":"18.133.218.210",
+          "hostname":"webhook.site",
+          "method":"POST",
+          "user_agent":"python-requests\/2.26.0",
+          "content":"{\"sent_webhooks_last_hour\": 9, \"type\": \"healthcheck\", \"status\": \"normal\", \"creation_timestamp\": \"2023-10-21T13:15:27.972471\", \"trend_percentage\": 0, \"version\": \"2022-03-16\"}",
+          "query":null,
+          "headers":{
+             "connection":[
+                "close"
+             ],
+             "time-since-hook":[
+                "59.2731568813324"
+             ],
+             "baggage":[
+                "PROVIDER=FITBIT,TIME_SINCE_HOOK=59.2731568813324,INBOUND_HOOK_TIME=1697894065.7316515"
+             ],
+             "traceparent":[
+                "00-d1ce1294707e6b46bcf92a43ece803fc-e7784f4caab7cb78-01"
+             ],
+             "content-type":[
+                "application\/json"
+             ],
+             "content-length":[
+                "173"
+             ],
+             "terra-reference":[
+                "87569c58-032d-4674-810d-546af73bbd39"
+             ],
+             "take-a-break":[
+                "Totally safe link: https:\/\/ichef.bbci.co.uk\/news\/976\/cpsprodpb\/7727\/production\/_103330503_musk3.jpg"
+             ],
+             "spread-the-word":[
+                "Think we are Terra-fic? Tell others! Or link them to: dev@tryterra.co!"
+             ],
+             "no-lies":[
+                "Tell us how much you love [or hate :'( ] us at dev@tryterra.co"
+             ],
+             "hook-type":[
+                "WEBHOOK"
+             ],
+             "type":[
+                "healthcheck"
+             ],
+             "dev-id":[
+                "teanterra20-testing-Wc2O2RllNc"
+             ],
+             "terra-signature":[
+                "t=1697894128,v1=a330fd0514e17c8dbb1c7fbb3c0e24310894a2f6f86eb5d02028fb1c812a29cf"
+             ],
+             "accept":[
+                "*\/*"
+             ],
+             "accept-encoding":[
+                "gzip, deflate, br"
+             ],
+             "user-agent":[
+                "python-requests\/2.26.0"
+             ],
+             "host":[
+                "webhook.site"
+             ]
+          },
+          "url":"https:\/\/webhook.site\/743b07a2-a33f-45d7-aec1-df5d9f285372",
+          "size":173,
+          "files":[
+             
+          ],
+          "created_at":"2023-10-21 13:15:28",
+          "updated_at":"2023-10-21 13:15:28",
+          "sorting":1697894128719419,
+          "custom_action_output":[
+             
+          ]
+       },
+       {
+          "uuid":"cf2cccb3-6ea6-4504-921e-f36f9b73cac4",
+          "type":"web",
+          "token_id":"743b07a2-a33f-45d7-aec1-df5d9f285372",
+          "team_id":null,
+          "ip":"18.132.162.19",
+          "hostname":"webhook.site",
+          "method":"POST",
+          "user_agent":"python-requests\/2.26.0",
+          "content":"{\"user\": {\"provider\": \"GARMIN\", \"user_id\": \"fa5d029e-f82f-44cd-a65b-baf08bc9d739\", \"last_webhook_update\": null, \"scopes\": \"MCT_EXPORT,ACTIVITY_EXPORT,COURSE_IMPORT,HEALTH_EXPORT,WORKOUT_IMPORT\", \"reference_id\": null}, \"message\": \"User has successfully authenticated\", \"status\": \"success\", \"widget_session_id\": \"115b5041-2773-4dc1-bb36-30b2f7f3baf5\", \"type\": \"auth\", \"reference_id\": \"null\", \"version\": \"2022-03-16\"}",
+          "query":null,
+          "headers":{
+             "connection":[
+                "close"
+             ],
+             "traceparent":[
+                "00-dc7f33ef2112cdfea66b91262275e755-8705d9f781c22474-01"
+             ],
+             "content-type":[
+                "application\/json"
+             ],
+             "content-length":[
+                "414"
+             ],
+             "provider":[
+                "GARMIN"
+             ],
+             "terra-reference":[
+                "a672ded5-05ed-4b02-a24d-838335866ec0"
+             ],
+             "take-a-break":[
+                "Totally safe link: https:\/\/ichef.bbci.co.uk\/news\/976\/cpsprodpb\/7727\/production\/_103330503_musk3.jpg"
+             ],
+             "spread-the-word":[
+                "Think we are Terra-fic? Tell others! Or link them to: dev@tryterra.co!"
+             ],
+             "no-lies":[
+                "Tell us how much you love [or hate :'( ] us at dev@tryterra.co"
+             ],
+             "hook-type":[
+                "WEBHOOK"
+             ],
+             "type":[
+                "auth_success"
+             ],
+             "user-id":[
+                "fa5d029e-f82f-44cd-a65b-baf08bc9d739"
+             ],
+             "dev-id":[
+                "teanterra20-testing-Wc2O2RllNc"
+             ],
+             "terra-signature":[
+                "t=1697894363,v1=25315e77c18862e94fb09aba22ba1cb416bde639efd92cf3f5796da7cb721c81"
+             ],
+             "accept":[
+                "*\/*"
+             ],
+             "accept-encoding":[
+                "gzip, deflate, br"
+             ],
+             "user-agent":[
+                "python-requests\/2.26.0"
+             ],
+             "host":[
+                "webhook.site"
+             ]
+          },
+          "url":"https:\/\/webhook.site\/743b07a2-a33f-45d7-aec1-df5d9f285372",
+          "size":414,
+          "files":[
+             
+          ],
+          "created_at":"2023-10-21 13:19:23",
+          "updated_at":"2023-10-21 13:19:23",
+          "sorting":1697894363244621,
+          "custom_action_output":[
+             
+          ]
+       },
+       {
+          "uuid":"aeb73349-147f-4e74-b96d-ce2627b42d51",
+          "type":"web",
+          "token_id":"743b07a2-a33f-45d7-aec1-df5d9f285372",
+          "team_id":null,
+          "ip":"18.132.162.19",
+          "hostname":"webhook.site",
+          "method":"POST",
+          "user_agent":"python-requests\/2.26.0",
+          "content":"{\"type\": \"user_reauth\", \"status\": \"warning\", \"message\": \"User has reauthenticated and old ID has been deleted\", \"old_user\": {\"user_id\": \"6c74f9eb-0b8e-4d1d-9c70-67aa8407fbb4\", \"provider\": \"GARMIN\", \"last_webhook_update\": null, \"scopes\": null, \"reference_id\": \"\"}, \"new_user\": {\"user_id\": \"fa5d029e-f82f-44cd-a65b-baf08bc9d739\", \"provider\": \"GARMIN\", \"last_webhook_update\": null, \"scopes\": null, \"reference_id\": \"\"}, \"version\": \"2022-03-16\"}",
+          "query":null,
+          "headers":{
+             "connection":[
+                "close"
+             ],
+             "time-since-hook":[
+                "129.95412278175354"
+             ],
+             "baggage":[
+                "PROVIDER=FITBIT,TIME_SINCE_HOOK=129.95412278175354,INBOUND_HOOK_TIME=1697894236.8578706"
+             ],
+             "traceparent":[
+                "00-dc7f33ef2112cdfea66b91262275e755-5388a8bcd85338fd-01"
+             ],
+             "content-type":[
+                "application\/json"
+             ],
+             "content-length":[
+                "440"
+             ],
+             "terra-reference":[
+                "966fd20f-74c1-4e4a-9d83-c8d56b137f49"
+             ],
+             "take-a-break":[
+                "Totally safe link: https:\/\/ichef.bbci.co.uk\/news\/976\/cpsprodpb\/7727\/production\/_103330503_musk3.jpg"
+             ],
+             "spread-the-word":[
+                "Think we are Terra-fic? Tell others! Or link them to: dev@tryterra.co!"
+             ],
+             "no-lies":[
+                "Tell us how much you love [or hate :'( ] us at dev@tryterra.co"
+             ],
+             "hook-type":[
+                "WEBHOOK"
+             ],
+             "type":[
+                "user_reauth"
+             ],
+             "user-id":[
+                "fa5d029e-f82f-44cd-a65b-baf08bc9d739"
+             ],
+             "dev-id":[
+                "teanterra20-testing-Wc2O2RllNc"
+             ],
+             "terra-signature":[
+                "t=1697894367,v1=b6cc65af66fab7b9fec2eb97911a563084990772e5b45688a596b99c2f48ef13"
+             ],
+             "accept":[
+                "*\/*"
+             ],
+             "accept-encoding":[
+                "gzip, deflate, br"
+             ],
+             "user-agent":[
+                "python-requests\/2.26.0"
+             ],
+             "host":[
+                "webhook.site"
+             ]
+          },
+          "url":"https:\/\/webhook.site\/743b07a2-a33f-45d7-aec1-df5d9f285372",
+          "size":440,
+          "files":[
+             
+          ],
+          "created_at":"2023-10-21 13:19:27",
+          "updated_at":"2023-10-21 13:19:27",
+          "sorting":1697894367389367,
+          "custom_action_output":[
+             
+          ]
+       },
+       {
+          "uuid":"6ad7ade4-624f-4785-ae48-82f433816ca3",
+          "type":"web",
+          "token_id":"743b07a2-a33f-45d7-aec1-df5d9f285372",
+          "team_id":null,
+          "ip":"18.133.218.210",
+          "hostname":"webhook.site",
+          "method":"POST",
+          "user_agent":"python-requests\/2.26.0",
+          "content":"{\"user\": {\"user_id\": \"6ffc5c20-44d7-444f-8455-e6d0955020a5\", \"provider\": \"GARMIN\", \"last_webhook_update\": null, \"scopes\": null, \"reference_id\": \"\"}, \"data\": [{\"energy_data\": {\"energy_planned_kilojoules\": null, \"energy_kilojoules\": null}, \"polyline_map_data\": {\"summary_polyline\": null}, \"heart_rate_data\": {\"detailed\": {\"hr_samples\": [{\"timestamp\": \"2023-10-21T01:56:04.243134+00:00\", \"bpm\": 160}, {\"timestamp\": \"2023-10-21T02:01:04.243134+00:00\", \"bpm\": 136}, {\"timestamp\": \"2023-10-21T02:06:04.243134+00:00\", \"bpm\": 150}, {\"timestamp\": \"2023-10-21T02:11:04.243134+00:00\", \"bpm\": 80}, {\"timestamp\": \"2023-10-21T02:16:04.243134+00:00\", \"bpm\": 108}, {\"timestamp\": \"2023-10-21T02:21:04.243134+00:00\", \"bpm\": 73}, {\"timestamp\": \"2023-10-21T02:26:04.243134+00:00\", \"bpm\": 131}], \"hrv_samples_rmssd\": [], \"hrv_samples_sdnn\": []}, \"summary\": {\"hr_zone_data\": [], \"min_hr_bpm\": 73, \"avg_hrv_rmssd\": null, \"user_max_hr_bpm\": null, \"max_hr_bpm\": 53.520549370336944, \"avg_hrv_sdnn\": null, \"resting_hr_bpm\": null, \"avg_hr_bpm\": 142.4824147269511}}, \"calories_data\": {\"net_activity_calories\": 703.5586833997962, \"total_burned_calories\": 1789.5325668809185, \"calorie_samples\": [], \"net_intake_calories\": null, \"BMR_calories\": null}, \"distance_data\": {\"detailed\": {\"floors_climbed_samples\": [], \"distance_samples\": [{\"distance_meters\": 0, \"timer_duration_seconds\": 0, \"timestamp\": \"2023-10-21T01:56:04.243134+00:00\"}, {\"distance_meters\": 33.43918235831079, \"timer_duration_seconds\": 5, \"timestamp\": \"2023-10-21T02:01:04.243134+00:00\"}, {\"distance_meters\": 64.90733246723869, \"timer_duration_seconds\": 10, \"timestamp\": \"2023-10-21T02:06:04.243134+00:00\"}, {\"distance_meters\": 109.93251947858266, \"timer_duration_seconds\": 15, \"timestamp\": \"2023-10-21T02:11:04.243134+00:00\"}, {\"distance_meters\": 145.12196922696717, \"timer_duration_seconds\": 20, \"timestamp\": \"2023-10-21T02:16:04.243134+00:00\"}, {\"distance_meters\": 160.39485436568842, \"timer_duration_seconds\": 25, \"timestamp\": \"2023-10-21T02:21:04.243134+00:00\"}, {\"distance_meters\": 197.40679599441341, \"timer_duration_seconds\": 30, \"timestamp\": \"2023-10-21T02:26:04.243134+00:00\"}], \"elevation_samples\": [{\"elev_meters\": 0, \"timer_duration_seconds\": 0, \"timestamp\": \"2023-10-21T01:56:04.243134+00:00\"}, {\"elev_meters\": 36.381985972454885, \"timer_duration_seconds\": 5, \"timestamp\": \"2023-10-21T02:01:04.243134+00:00\"}, {\"elev_meters\": 56.400893859764686, \"timer_duration_seconds\": 10, \"timestamp\": \"2023-10-21T02:06:04.243134+00:00\"}, {\"elev_meters\": 97.90458715470876, \"timer_duration_seconds\": 15, \"timestamp\": \"2023-10-21T02:11:04.243134+00:00\"}, {\"elev_meters\": 136.2453853088902, \"timer_duration_seconds\": 20, \"timestamp\": \"2023-10-21T02:16:04.243134+00:00\"}, {\"elev_meters\": 163.38577881640785, \"timer_duration_seconds\": 25, \"timestamp\": \"2023-10-21T02:21:04.243134+00:00\"}, {\"elev_meters\": 193.19250759875118, \"timer_duration_seconds\": 30, \"timestamp\": \"2023-10-21T02:26:04.243134+00:00\"}], \"step_samples\": []}, \"summary\": {\"swimming\": {\"num_laps\": 4, \"num_strokes\": 81, \"pool_length_meters\": null}, \"elevation\": {\"avg_meters\": 97.64444838728251, \"loss_actual_meters\": 0, \"max_meters\": 48.38294046538709, \"gain_planned_meters\": null, \"min_meters\": 23.81132875349305, \"gain_actual_meters\": 193.19250759875118}, \"floors_climbed\": null, \"steps\": 15795, \"distance_meters\": 220.43203413781157}}, \"movement_data\": {\"avg_speed_meters_per_second\": 7.013725604298784, \"max_speed_meters_per_second\": 1.8983613426985269, \"cadence_samples\": [], \"adjusted_max_speed_meters_per_second\": null, \"max_cadence_rpm\": 46.19080944774406, \"avg_pace_minutes_per_kilometer\": null, \"normalized_speed_meters_per_second\": null, \"avg_cadence_rpm\": 42.9580068895688, \"max_torque_newton_meters\": null, \"torque_samples\": [], \"max_pace_minutes_per_kilometer\": null, \"max_velocity_meters_per_second\": null, \"avg_velocity_meters_per_second\": null, \"avg_torque_newton_meters\": null, \"speed_samples\": [{\"speed_meters_per_second\": 10.42644650827983, \"timer_duration_seconds\": null, \"timestamp\": \"2023-10-21T01:56:04.243134+00:00\"}, {\"speed_meters_per_second\": 10.505712982640716, \"timer_duration_seconds\": null, \"timestamp\": \"2023-10-21T02:01:04.243134+00:00\"}, {\"speed_meters_per_second\": 9.52354344528797, \"timer_duration_seconds\": null, \"timestamp\": \"2023-10-21T02:06:04.243134+00:00\"}, {\"speed_meters_per_second\": 9.309664296657477, \"timer_duration_seconds\": null, \"timestamp\": \"2023-10-21T02:11:04.243134+00:00\"}, {\"speed_meters_per_second\": 14.586971021310895, \"timer_duration_seconds\": null, \"timestamp\": \"2023-10-21T02:16:04.243134+00:00\"}, {\"speed_meters_per_second\": 11.261279908702367, \"timer_duration_seconds\": null, \"timestamp\": \"2023-10-21T02:21:04.243134+00:00\"}, {\"speed_meters_per_second\": 8.723946988972653, \"timer_duration_seconds\": null, \"timestamp\": \"2023-10-21T02:26:04.243134+00:00\"}]}, \"position_data\": {\"end_pos_lat_lng_deg\": [52.235791873083194, 1.234716173606944], \"start_pos_lat_lng_deg\": [52.64469649839045, 0.47320771147352925], \"center_pos_lat_lng_deg\": [52.73685837188183, 1.1157037396798621], \"position_samples\": [{\"timer_duration_seconds\": 0, \"timestamp\": \"2023-10-21T01:56:04.243134+00:00\", \"coords_lat_lng_deg\": [52.74254506602815, 0.5563035542906187]}, {\"timer_duration_seconds\": 5, \"timestamp\": \"2023-10-21T02:01:04.243134+00:00\", \"coords_lat_lng_deg\": [52.649112592131345, 0.5965766138313611]}, {\"timer_duration_seconds\": 10, \"timestamp\": \"2023-10-21T02:06:04.243134+00:00\", \"coords_lat_lng_deg\": [52.66820049299937, 0.7346092479235071]}, {\"timer_duration_seconds\": 15, \"timestamp\": \"2023-10-21T02:11:04.243134+00:00\", \"coords_lat_lng_deg\": [52.73685837188183, 1.1157037396798621]}, {\"timer_duration_seconds\": 20, \"timestamp\": \"2023-10-21T02:16:04.243134+00:00\", \"coords_lat_lng_deg\": [52.67800855351309, 1.2404340523349762]}, {\"timer_duration_seconds\": 25, \"timestamp\": \"2023-10-21T02:21:04.243134+00:00\", \"coords_lat_lng_deg\": [52.761898634528656, 0.6685896426100126]}, {\"timer_duration_seconds\": 30, \"timestamp\": \"2023-10-21T02:26:04.243134+00:00\", \"coords_lat_lng_deg\": [52.712989797021926, 1.0421839108965114]}]}, \"oxygen_data\": {\"vo2_samples\": [], \"saturation_samples\": [], \"avg_saturation_percentage\": null, \"vo2max_ml_per_min_per_kg\": null}, \"power_data\": {\"max_watts\": 43.864772885113496, \"avg_watts\": 16.34886442894472, \"power_samples\": [{\"timer_duration_seconds\": 0, \"watts\": 21.8830857143422, \"timestamp\": \"2023-10-21T01:56:04.243134+00:00\"}, {\"timer_duration_seconds\": 5, \"watts\": 51.26062459020498, \"timestamp\": \"2023-10-21T02:01:04.243134+00:00\"}, {\"timer_duration_seconds\": 10, \"watts\": 39.46951781721842, \"timestamp\": \"2023-10-21T02:06:04.243134+00:00\"}, {\"timer_duration_seconds\": 15, \"watts\": 59.77712907328829, \"timestamp\": \"2023-10-21T02:11:04.243134+00:00\"}, {\"timer_duration_seconds\": 20, \"watts\": 42.94115809893323, \"timestamp\": \"2023-10-21T02:16:04.243134+00:00\"}, {\"timer_duration_seconds\": 25, \"watts\": 37.37246401865296, \"timestamp\": \"2023-10-21T02:21:04.243134+00:00\"}, {\"timer_duration_seconds\": 30, \"watts\": 19.218586768013544, \"timestamp\": \"2023-10-21T02:26:04.243134+00:00\"}]}, \"lap_data\": {\"laps\": []}, \"TSS_data\": {\"TSS_samples\": []}, \"metadata\": {\"start_time\": \"2023-10-21T01:56:04.243134+00:00\", \"summary_id\": \"51938289866\", \"country\": null, \"upload_type\": 3, \"end_time\": \"2023-10-21T02:29:04.243134+00:00\", \"city\": null, \"type\": 58, \"state\": null, \"name\": \"Basketball\"}, \"cheat_detection\": null, \"active_durations_data\": {\"standing_seconds\": null, \"moderate_intensity_seconds\": null, \"standing_hours_count\": null, \"vigorous_intensity_seconds\": null, \"low_intensity_seconds\": null, \"num_continuous_inactive_periods\": null, \"activity_levels_samples\": [], \"inactivity_seconds\": null, \"rest_seconds\": null, \"activity_seconds\": 501.38642670412185}, \"strain_data\": {\"strain_level\": null}, \"device_data\": {\"software_version\": null, \"activation_timestamp\": null, \"manufacturer\": \"Terra\", \"other_devices\": [], \"hardware_version\": null, \"serial_number\": \"176500\", \"name\": \"Random device name\", \"data_provided\": []}, \"work_data\": {\"work_kilojoules\": null}, \"MET_data\": {\"num_inactive_minutes\": null, \"avg_level\": null, \"num_moderate_intensity_minutes\": null, \"num_low_intensity_minutes\": null, \"MET_samples\": [], \"num_high_intensity_minutes\": null}}], \"type\": \"activity\", \"version\": \"2022-03-16\"}",
+          "query":null,
+          "headers":{
+             "connection":[
+                "close"
+             ],
+             "traceparent":[
+                "00-75c5ad9f5ec35f7524f8621f74906a1d-59829f7361542958-01"
+             ],
+             "content-type":[
+                "application\/json"
+             ],
+             "content-length":[
+                "8270"
+             ],
+             "provider":[
+                "GARMIN"
+             ],
+             "terra-reference":[
+                "d71b710a-463f-48e2-8d98-efc58a03b332"
+             ],
+             "take-a-break":[
+                "Totally safe link: https:\/\/ichef.bbci.co.uk\/news\/976\/cpsprodpb\/7727\/production\/_103330503_musk3.jpg"
+             ],
+             "spread-the-word":[
+                "Think we are Terra-fic? Tell others! Or link them to: dev@tryterra.co!"
+             ],
+             "no-lies":[
+                "Tell us how much you love [or hate :'( ] us at dev@tryterra.co"
+             ],
+             "hook-type":[
+                "WEBHOOK"
+             ],
+             "type":[
+                "activity"
+             ],
+             "user-id":[
+                ""
+             ],
+             "dev-id":[
+                "teanterra20-testing-Wc2O2RllNc"
+             ],
+             "terra-signature":[
+                "t=1697894891,v1=326074bfdb5024385b01618f90e0b6530f5250a20ae18a02074deddf0521ccd1"
+             ],
+             "accept":[
+                "*\/*"
+             ],
+             "accept-encoding":[
+                "gzip, deflate, br"
+             ],
+             "user-agent":[
+                "python-requests\/2.26.0"
+             ],
+             "host":[
+                "webhook.site"
+             ]
+          },
+          "url":"https:\/\/webhook.site\/743b07a2-a33f-45d7-aec1-df5d9f285372",
+          "size":8270,
+          "files":[
+             
+          ],
+          "created_at":"2023-10-21 13:28:11",
+          "updated_at":"2023-10-21 13:28:11",
+          "sorting":1697894891908392,
+          "custom_action_output":[
+             
+          ]
+       },
+       {
+          "uuid":"340934ea-5fcc-41bf-b8dd-848fef405dad",
+          "type":"web",
+          "token_id":"743b07a2-a33f-45d7-aec1-df5d9f285372",
+          "team_id":null,
+          "ip":"18.169.82.189",
+          "hostname":"webhook.site",
+          "method":"POST",
+          "user_agent":"python-requests\/2.26.0",
+          "content":"{\"sent_webhooks_last_hour\": 9, \"type\": \"healthcheck\", \"status\": \"normal\", \"creation_timestamp\": \"2023-10-21T13:30:04.936734\", \"trend_percentage\": 0, \"version\": \"2022-03-16\"}",
+          "query":null,
+          "headers":{
+             "connection":[
+                "close"
+             ],
+             "time-since-hook":[
+                "3.5885238647460938"
+             ],
+             "baggage":[
+                "PROVIDER=FITBIT,TIME_SINCE_HOOK=3.5885238647460938,INBOUND_HOOK_TIME=1697894997.4998498"
+             ],
+             "traceparent":[
+                "00-b507e50860ee103db95809098f71c7b4-106cb7bc2c759b8e-01"
+             ],
+             "content-type":[
+                "application\/json"
+             ],
+             "content-length":[
+                "173"
+             ],
+             "terra-reference":[
+                "b74246f4-3b35-4dc5-9ade-42ebaf0e7644"
+             ],
+             "take-a-break":[
+                "Totally safe link: https:\/\/ichef.bbci.co.uk\/news\/976\/cpsprodpb\/7727\/production\/_103330503_musk3.jpg"
+             ],
+             "spread-the-word":[
+                "Think we are Terra-fic? Tell others! Or link them to: dev@tryterra.co!"
+             ],
+             "no-lies":[
+                "Tell us how much you love [or hate :'( ] us at dev@tryterra.co"
+             ],
+             "hook-type":[
+                "WEBHOOK"
+             ],
+             "type":[
+                "healthcheck"
+             ],
+             "dev-id":[
+                "teanterra20-testing-Wc2O2RllNc"
+             ],
+             "terra-signature":[
+                "t=1697895009,v1=f9089add57d499d91f927872e7a3f1709cdee00a807af3c23948a2590b483ba7"
+             ],
+             "accept":[
+                "*\/*"
+             ],
+             "accept-encoding":[
+                "gzip, deflate, br"
+             ],
+             "user-agent":[
+                "python-requests\/2.26.0"
+             ],
+             "host":[
+                "webhook.site"
+             ]
+          },
+          "url":"https:\/\/webhook.site\/743b07a2-a33f-45d7-aec1-df5d9f285372",
+          "size":173,
+          "files":[
+             
+          ],
+          "created_at":"2023-10-21 13:30:09",
+          "updated_at":"2023-10-21 13:30:09",
+          "sorting":1697895009318018,
+          "custom_action_output":[
+             
+          ]
+       },
+       {
+          "uuid":"30458281-33ea-4649-adad-359ae5a52e31",
+          "type":"web",
+          "token_id":"743b07a2-a33f-45d7-aec1-df5d9f285372",
+          "team_id":null,
+          "ip":"18.169.82.189",
+          "hostname":"webhook.site",
+          "method":"POST",
+          "user_agent":"python-requests\/2.26.0",
+          "content":"{\"sent_webhooks_last_hour\": 9, \"status\": \"normal\", \"trend_percentage\": 0, \"type\": \"healthcheck\", \"creation_timestamp\": \"2023-10-21T13:45:42.019670\", \"version\": \"2022-03-16\"}",
+          "query":null,
+          "headers":{
+             "connection":[
+                "close"
+             ],
+             "time-since-hook":[
+                "104.95315909385681"
+             ],
+             "baggage":[
+                "TIME_SINCE_HOOK=104.95315909385681,INBOUND_HOOK_TIME=1697895772.9011195,PROVIDER=APPLE"
+             ],
+             "traceparent":[
+                "00-b8e6a9ea4001b5f519b9bd7179ca4384-f0846532618d7a47-01"
+             ],
+             "content-type":[
+                "application\/json"
+             ],
+             "content-length":[
+                "173"
+             ],
+             "terra-reference":[
+                "454fa2de-312b-47e4-b4ba-19f7ba7b9d8c"
+             ],
+             "take-a-break":[
+                "Totally safe link: https:\/\/ichef.bbci.co.uk\/news\/976\/cpsprodpb\/7727\/production\/_103330503_musk3.jpg"
+             ],
+             "spread-the-word":[
+                "Think we are Terra-fic? Tell others! Or link them to: dev@tryterra.co!"
+             ],
+             "no-lies":[
+                "Tell us how much you love [or hate :'( ] us at dev@tryterra.co"
+             ],
+             "hook-type":[
+                "WEBHOOK"
+             ],
+             "type":[
+                "healthcheck"
+             ],
+             "dev-id":[
+                "teanterra20-testing-Wc2O2RllNc"
+             ],
+             "terra-signature":[
+                "t=1697895942,v1=b9a37983b0d67deac1e8ad934f0f2a189d3632ecfd061a4dc4f8b15f6d877361"
+             ],
+             "accept":[
+                "*\/*"
+             ],
+             "accept-encoding":[
+                "gzip, deflate, br"
+             ],
+             "user-agent":[
+                "python-requests\/2.26.0"
+             ],
+             "host":[
+                "webhook.site"
+             ]
+          },
+          "url":"https:\/\/webhook.site\/743b07a2-a33f-45d7-aec1-df5d9f285372",
+          "size":173,
+          "files":[
+             
+          ],
+          "created_at":"2023-10-21 13:45:42",
+          "updated_at":"2023-10-21 13:45:42",
+          "sorting":1697895942572833,
+          "custom_action_output":[
+             
+          ]
+       }
+    ],
+    "total":8,
+    "per_page":50,
+    "current_page":1,
+    "is_last_page":true,
+    "from":1,
+    "to":8
+ }
