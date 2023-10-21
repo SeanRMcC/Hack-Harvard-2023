@@ -1,5 +1,5 @@
 import React from 'react';
-import Button from './Button.js';
+import Button from './Button.jsx';
 //import { Link } from 'react-router-dom';
 
 function Nav() {
