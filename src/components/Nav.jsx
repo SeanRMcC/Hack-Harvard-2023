@@ -8,10 +8,10 @@ function Nav() {
             <nav>
                 {/* Navbar content */}
                 <ul>
-                    <li><Link to="/">Home</Link></li>
-                    <li><Link to="/leaderboard">Leaderboard</Link></li>
-                    <li><Link to="/graph">Graph</Link></li>
-                    <li>{<Button />}</li>
+                    <li className="noConnect"><Link to="/">Home</Link></li>
+                    <li className="noConnect"><Link to="/leaderboard">Leaderboard</Link></li>
+                    <li className="noConnect"><Link to="/graph">Graph</Link></li>
+                    <li className="connectWearable">{<Button/>}</li>
                 </ul>
             </nav>
         </div>
