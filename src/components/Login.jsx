@@ -29,7 +29,9 @@ export default function Login() {
                     name: user.displayName,
                     ids: [],
                     last_resting_hr: null,
-                    score: -1,
+                    goal: null,
+                    score: 0,
+                    streak: 0
                 })
             }
 
