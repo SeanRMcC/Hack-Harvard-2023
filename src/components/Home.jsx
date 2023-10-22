@@ -27,9 +27,6 @@ export default function Home(props) {
         prepareData();
 
     });
-    const score = 42;
-    const streak = '8 days!';
-    const goal = 'Lower HR';
     
     return (
         <div className='home'>
@@ -37,16 +34,16 @@ export default function Home(props) {
             {props.isAuthenticated 
                 ?
                 <>
-                    <h1 className="welcome"> Hello, {props.user.displayName}{streak}{goal}{points}</h1>
+                    <h1 className="welcome"> Hello, {props.user.displayName}</h1>
                     <div className="stats">
                         <h2>
-                            Score: {score}
+                            Score: {points}
                         </h2>
                         <h2>
                             Streak: {streak}
                         </h2>
                         <h2>
-                            Goal: {goal}
+                            Goal: Lower Heart Rate
                         </h2>
                     </div>
                 </> 
