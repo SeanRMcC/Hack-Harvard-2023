@@ -24,12 +24,13 @@
   
 }
 
-nav a {
+nav a, .footer {
   color: white;
   text-decoration: none;
 }
 
 nav ul {
+  padding-top: 3px;
   display: flex;
   font-size: x-large;
   font-weight: bold;
@@ -49,7 +50,7 @@ nav ul {
 }
 
 .noConnect {
-  padding-top: 0.5rem;
+  padding-top: 0.8rem;
   border: 0.125rem solid black;
   border-radius: 0.3rem;
   background-color: var(--primary-color);
