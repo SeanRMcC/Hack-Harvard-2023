@@ -3,7 +3,7 @@ import { useState, useEffect } from "react"
 
 export default function Home(props) {
 
-    const [streak, setStreak] = useState(-1);
+    const [streak, setStreak] = useState(0);
     const [goal, setGoal] = useState("");
     const [points, setPoints] = useState(0);
 
