@@ -28,7 +28,14 @@ app.post("/terraWebhook", (req, res) => {
     res.sendStatus(200);
     const data = JSON.parse(req.body);
     console.log(data);
-    db.collection("users").doc().set(data);
+    if(data.type === "activity"){
+        const entry = {
+            user_id: data.user.user_id,
+            provider: data.user.provider,
+            resting_hr: data.data[0].heart_rate_data.summary.resting_hr_bpm
+        }
+        db.collection("users").doc().set(entry);
+    }
 });
 
 const PORT = 8000;
