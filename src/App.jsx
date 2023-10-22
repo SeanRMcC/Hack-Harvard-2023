@@ -5,6 +5,8 @@ import Login from './components/Login'
 import Home from './components/Home'
 import Leaderboard from './components/Leaderboard'
 import Graph from './components/Graph'
+
+
 import './styles.css';
 import { BrowserRouter as Router, Route, Switch, Routes } from 'react-router-dom';
 
@@ -21,6 +23,7 @@ function App() {
     const [isAuthenticated, setIsAuthenticated] = React.useState(false)
 
     const user = auth.currentUser
+    console.log(user)
 
 
   const [data, setData] = useState("");
