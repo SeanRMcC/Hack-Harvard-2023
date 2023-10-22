@@ -83,7 +83,7 @@ nav ul {
 }
 
 body {
-  background: linear-gradient(45deg, #a2c0e1, #eddff2);
+  background: linear-gradient(45deg, #cde3fa, #ddcee2);
   background-size: 400% 400%;
   animation: gradientAnimation 10s infinite alternate;
 }
@@ -117,11 +117,7 @@ body {
     grid-template-columns: 1fr; /* Display graph items in a single column */
   }
 }
-.footer-wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+
 .footer {
   display: flex;
   background-color: var(--secondary-color);
@@ -130,9 +126,7 @@ body {
   align-items: center;
   justify-content: center;
   box-shadow: -3px 3px black;
-  position: absolute;
-  bottom: 0;
-  width: 95%;
+  width: 97%;
   height: 2.5rem;            /* Footer height */
   margin-bottom: 10px
 }
@@ -143,7 +137,7 @@ body {
     flex-direction: column; /* Stack footer content vertically */
     text-align: center; /* Center the content */
     column-gap: 0; /* Remove column gap */
-    padding: 1rem; /* Add padding for better spacing */
+    padding: 2rem; /* Add padding for better spacing */
   }
 }
 
@@ -257,4 +251,14 @@ body {
   .stats h2 {
     margin: 10px 0;
   }
+}
+
+.content {
+  min-height: calc(100vh - 150px);
+}
+
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
 }

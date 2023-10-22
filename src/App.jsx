@@ -49,18 +49,20 @@ function App() {
         <Router>
 
             <div>
-                <Nav 
-                    isAuthenticated={isAuthenticated}
-                    handleSignOut={handleSignOut}
-                    setUserDocRef={setUserDocRef}
-                />
+                <div className="content">
+                    <Nav 
+                        isAuthenticated={isAuthenticated}
+                        handleSignOut={handleSignOut}
+                        setUserDocRef={setUserDocRef}
+                    />
 
-                <div className='content'>
-                    <Routes>
-                        <Route path='/' element={<Home userDocRef={userDocRef} isAuthenticated={isAuthenticated} user={user} userDocRef={userDocRef} />} /> 
-                        <Route path='/leaderboard' element={<Leaderboard user={user} />} />
-                        <Route path='/graph' element={<Graph />} />
-                    </Routes>
+                    <div className='content'>
+                        <Routes>
+                            <Route path='/' element={<Home userDocRef={userDocRef} isAuthenticated={isAuthenticated} user={user} />} /> 
+                            <Route path='/leaderboard' element={<Leaderboard user={user} />} />
+                            <Route path='/graph' element={<Graph />} />
+                        </Routes>
+                    </div>
                 </div>
 
                 <Footer />
