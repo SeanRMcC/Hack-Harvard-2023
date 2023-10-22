@@ -54,7 +54,6 @@ function App() {
                     handleSignOut={handleSignOut}
                     setUserDocRef={setUserDocRef}
                 />
-                {/* {isAuthenticated || <Login />} */}
 
                 <div className='content'>
                     <Routes>

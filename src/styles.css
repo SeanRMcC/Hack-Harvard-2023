@@ -124,64 +124,84 @@ body {
     grid-template-columns: 1fr; /* Display graph items in a single column */
   }
 }
-
+.footer-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .footer {
   display: flex;
   background-color: var(--secondary-color);
   column-gap: 40%;
   flex-direction: row;
+  align-items: center;
   justify-content: center;
   box-shadow: -3px 3px black;
+  position: absolute;
+  bottom: 0;
+  width: 95%;
+  height: 2.5rem;            /* Footer height */
+  margin-bottom: 10px
 }
-
 
 
 /* styling leaderboard */
-/* .leaderboard {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.leaderboard td {
-  padding-left: 25px; 
-  padding-right: 25px; 
-} */
-
-
 .leaderboard {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
+}
+
+/* .leaderboard td {
+  padding-left: 25px; 
+  padding-right: 25px; 
+} */
+.content-table td,
+.content-table th,
+.content-table tr {
+  border-radius: 0;
+}
+
+
+.content-table {
   border-collapse: collapse;
-  margin-bottom: 20px;
+  margin: 90px 0;
+  font-size: 0.9em;
+  min-width: 400px;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  font-size: 20px;
 }
 
-.leaderboard th, .leaderboard td {
-  border: 1px solid #ccc;
-  padding: 8px;
+.content-table thead tr {
+  background-color: #63a587;
+  color: #ffffff;
   text-align: left;
+  font-weight: bold;
 }
 
-.leaderboard th {
-  background-color: #f2f2f2;
+.content-table th,
+.content-table td {
+  padding: 12px 15px;
 }
 
-.leaderboard tr:nth-child(even) {
-  background-color: #f9f9f9;
+.content-table tbody tr {
+  border-bottom: 1px solid #dddddd;
 }
 
-.leaderboard tr:hover {
-  background-color: #f0f0f0;
+.content-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
 }
 
-.leaderboard th, .leaderboard td {
-  min-width: 100px; /* Adjust as needed */
+.content-table tbody tr:last-of-type {
+  border-bottom: 2px solid #63a587;
 }
 
-.leaderboard th:nth-child(1), .leaderboard td:nth-child(1) {
-  width: 30%; /* Adjust the width of the first column */
+.content-table tbody tr.active-row {
+  font-weight: bold;
+  color: #63a587;
 }
+
 
 /* Add more styles as needed */

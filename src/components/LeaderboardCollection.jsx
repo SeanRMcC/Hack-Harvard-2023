@@ -15,11 +15,16 @@ export default function Leaderboard(props) {
                 </tr>
         </div>
     ))
+    let uid
+    if (props.isAuthenticated) {
+        // obtain firebase Oauth user_id
+        uid = props.user.uid
+    }
 
 
     return (
         <div className='leaderboard'>
-          <table>
+          <table className='content-table'>
             <thead>
               <tr>
                 <th>Name</th>
@@ -29,7 +34,7 @@ export default function Leaderboard(props) {
             </thead>
             <tbody>
               {sortedLeaderboard.map((element, index) => (
-                <tr key={index}>
+                <tr key={index} >
                   <td>{element.name}</td>
                   <td>{element.last_resting_hr || "null"}</td>
                   <td>{element.score}</td>
