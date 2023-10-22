@@ -3,7 +3,7 @@ import LeaderboardCollection from './LeaderboardCollection'
 import { usersCollection } from '../firebase'
 import { getDocs, doc } from 'firebase/firestore'
 
-export default function Leaderboard() {
+export default function Leaderboard({ user }) {
     // state to maintain all urls
     const [leaderboard, setLeaderboard] = React.useState([])
 
@@ -33,6 +33,6 @@ export default function Leaderboard() {
     
     // code to pull from Cloud Firestore here
     return (
-        <LeaderboardCollection leaderboard={leaderboard} />
+        <LeaderboardCollection leaderboard={leaderboard} user={user} />
     )
 }

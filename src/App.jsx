@@ -58,8 +58,8 @@ function App() {
 
                 <div className='content'>
                     <Routes>
-                        <Route path='/' element={<Home isAuthenticated={isAuthenticated} user={user} />} /> 
-                        <Route path='/leaderboard' element={<Leaderboard />} />
+                        <Route path='/' element={<Home userDocRef={userDocRef} isAuthenticated={isAuthenticated} user={user} />} /> 
+                        <Route path='/leaderboard' element={<Leaderboard user={user} />} />
                         <Route path='/graph' element={<Graph />} />
                     </Routes>
                 </div>
