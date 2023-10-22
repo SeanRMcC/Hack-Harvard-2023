@@ -62,9 +62,12 @@ nav ul {
 }
 
 .noConnect {
-  padding-top: 0.8rem;
+  padding-top: 0.7rem;
+  padding-left:10px;
+  padding-right:10px;
+  margin-bottom: 5px;
   border: 0.125rem solid black;
-  border-radius: 0.3rem;
+  border-radius: 2rem;
   background-color: var(--primary-color);
   box-shadow: -4px 3px black;
   transition: box-shadow 0.3s ease;
@@ -196,7 +199,7 @@ body {
   background-color: var(--primary-color); /* Background color for the stats */
   color: white; /* Text color for the stats */
   padding: 20px; /* Adjust the padding to your preference */
-  border-radius: 10px; /* Rounded corners for the stats */
+  border-radius: 2rem; /* Rounded corners for the stats */
 }
 
 .stats.animate {
