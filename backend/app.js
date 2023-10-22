@@ -42,22 +42,19 @@ app.post("/terraWebhook", async (req, res) => {
             const refData = await foundDocument.get().then(doc => doc.data());
             const prev_heart_rate = refData.last_resting_hr;
 
+            const heart_difference = prev_heart_rate - new_heart_rate;
+
             const newData = {
                 ...refData,
                 last_resting_hr: new_heart_rate,
-                score: refData.score + (prev_heart_rate - new_heart_rate)
+                score: refData.score + heart_difference,
+                streak: heart_difference > 0 ? refData.streak + 1 : 0
             };
             await foundDocument.update(newData);
 
         }else{
             console.log("not in database");
         }
-        /*const entry = {
-            user_id: data.user.user_id,
-            provider: data.user.provider,
-            resting_hr: data.data[0].heart_rate_data.summary.resting_hr_bpm
-        }
-        db.collection("users").doc().set(entry);*/
     }
 });
 
