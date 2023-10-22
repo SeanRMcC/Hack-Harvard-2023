@@ -2,7 +2,13 @@ import React from 'react';
 import Nav from './components/Nav';
 import Footer from './components/Footer';
 import Login from './components/Login'
+import Home from './components/Home'
+import Leaderboard from './components/Leaderboard'
+import Graph from './components/Graph'
+
+
 import './styles.css';
+import { BrowserRouter as Router, Route, Switch, Routes } from 'react-router-dom';
 
 // Firebase imports
 import { usersCollection } from './firebase'
@@ -17,20 +23,32 @@ function App() {
     const [isAuthenticated, setIsAuthenticated] = React.useState(false)
 
     const user = auth.currentUser
+    console.log(user)
 
 
   const [data, setData] = useState("");
 
     return ( 
-        <div>
-            <Nav />
-            {isAuthenticated || <Login />}
-            {data === "" ? <img src={loading} alt="loading" /> : 
+        <Router>
+
             <div>
-                {data}
-            </div>}
-            <Footer />
-        </div>
+                <Nav />
+                {isAuthenticated || <Login />}
+                <div className='content'>
+                    <Routes>
+                        <Route path='/' element={<Home />} />
+                        <Route path='/leaderboard' element={<Leaderboard />} />
+                        <Route path='/graph' element={<Graph />} />
+                    </Routes>
+
+                </div>
+                {/* {data === "" ? <img src={loading} alt="loading" /> : 
+                <div>
+                    {data}
+                </div>} */}
+                <Footer />
+            </div>
+        </Router>
     );
     }
 
