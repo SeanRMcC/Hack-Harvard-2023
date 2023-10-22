@@ -6,7 +6,7 @@ import { usersCollection } from '../firebase'
 import { doc, getDoc, setDoc } from 'firebase/firestore'
 
 
-export default function Login() {
+export default function Login({ setUserDocRef }) {
 
     // function to signInWithGoogle (using Firebase authentication)
     const signInWithGoogle = async () => {
@@ -21,6 +21,10 @@ export default function Login() {
             console.log(user)
             // check if user document exists
             const userDocRef = doc(usersCollection, user.uid)
+
+            // update state variable to track docRef
+            setUserDocRef(prev => userDocRef)
+            
             const userDocSnapshot = await getDoc(userDocRef)
 
             // if document doesn't exist, create it
@@ -29,7 +33,9 @@ export default function Login() {
                     name: user.displayName,
                     ids: [],
                     last_resting_hr: null,
-                    score: -1,
+                    goal: null,
+                    score: 0,
+                    streak: 0
                 })
             }
 

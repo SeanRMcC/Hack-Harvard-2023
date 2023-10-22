@@ -19,8 +19,10 @@ import { useEffect, useState } from 'react';
 function App() {
     // check if user is authenticated (decides what page to render)
     const [isAuthenticated, setIsAuthenticated] = React.useState(false)
-    console.log(isAuthenticated)
+    const [userDocRef, setUserDocRef] = React.useState(null)
     const user = auth.currentUser
+
+    console.log(userDocRef)
 
     React.useEffect(() => {
         // firebase function (check if authentication changes...)
@@ -33,7 +35,6 @@ function App() {
 
     // function to sign out (with firebase authentication)
     const handleSignOut = async () => {
-        console.log("handle clicked")
         try {
             // additionally, sign out with FIREBASE
             await auth.signOut()
@@ -44,9 +45,6 @@ function App() {
     }
 
 
-
-  const [data, setData] = useState("");
-
     return ( 
         <Router>
 
@@ -54,6 +52,7 @@ function App() {
                 <Nav 
                     isAuthenticated={isAuthenticated}
                     handleSignOut={handleSignOut}
+                    setUserDocRef={setUserDocRef}
                 />
                 {/* {isAuthenticated || <Login />} */}
 
@@ -64,10 +63,7 @@ function App() {
                         <Route path='/graph' element={<Graph />} />
                     </Routes>
                 </div>
-                {/* {data === "" ? <img src={loading} alt="loading" /> : 
-                <div>
-                    {data}
-                </div>} */}
+
                 <Footer />
             </div>
         </Router>
