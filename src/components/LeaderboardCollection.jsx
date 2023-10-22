@@ -4,7 +4,6 @@ export default function Leaderboard(props) {
 
     const sortedLeaderboard = props.leaderboard.sort((a, b) => b.score - a.score)
 
-    console.log("sorted", sortedLeaderboard[0])
     const leaderboard = sortedLeaderboard.map((element, index) => (
         <div key={index}>
             <span className='leaderboard-row'>
@@ -14,11 +13,10 @@ export default function Leaderboard(props) {
             </span>
         </div>
     ))
-    console.log(leaderboard)
 
 
     return (
-        <div className='all-urls'>
+        <div className='leaderboard'>
             {leaderboard}
         </div>
     )

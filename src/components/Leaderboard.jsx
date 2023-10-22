@@ -20,9 +20,7 @@ export default function Leaderboard() {
                     tempLeaderboard.push(doc.data())
                     // console.log(doc.id, " => ", doc.data());
                 });
-                console.log("success", tempLeaderboard)
                 setLeaderboard(prev => tempLeaderboard)
-                console.log("state", leaderboard)
             } catch (error) {
                 console.error("Error fetching data:", error);
             }
