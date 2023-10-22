@@ -1,7 +1,7 @@
 import React from 'react'
 import LeaderboardCollection from './LeaderboardCollection'
 import { usersCollection } from '../firebase'
-import { getDocs, onSnapshot, collection } from 'firebase/firestore'
+import { getDocs } from 'firebase/firestore'
 
 export default function Leaderboard() {
     // state to maintain all urls

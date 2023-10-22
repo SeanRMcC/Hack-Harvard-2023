@@ -1,17 +1,17 @@
 import React from 'react'
 
-export default function URLCollection(props) {
+export default function Leaderboard(props) {
 
 
-    const urlElements = props.sortedLeaderboard.map((element, index) => (
+    const leaderboard = props.sortedLeaderboard.map((element, index) => (
         <div key={index}>
-            {element.resting_hr} 
+            {element.resting_hr}
         </div>
     ))
 
     return (
         <div className='all-urls'>
-            {urlElements}
+            {leaderboard}
         </div>
     )
 }
