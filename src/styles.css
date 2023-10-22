@@ -24,9 +24,21 @@
   
 }
 
+@media (max-width: 768px) {
+  .navigation {
+    position: relative;
+  }
+}
+
 nav a, .footer {
   color: white;
   text-decoration: none;
+}
+
+.welcome {
+  padding: 12rem;
+  font-size: 60px;
+  text-align: center;
 }
 
 nav ul {
@@ -44,8 +56,8 @@ nav ul {
   nav ul {
     flex-direction: column; /* Stack navigation links vertically */
     text-align: center; /* Center the text */
-    gap: 1rem; /* Adjust the spacing */
-    padding: 1rem; /* Add some padding for better touch interaction */
+    gap: 0.25rem; 
+    padding: 1rem;
   }
 }
 
@@ -65,15 +77,6 @@ nav ul {
 .connectWearable {
   padding-bottom: 0px;
   margin-bottom: 0px;
-}
-
-.footer {
-  display: flex;
-  background-color: var(--secondary-color);
-  column-gap: 40%;
-  flex-direction: row;
-  justify-content: center;
-  box-shadow: -3px 3px black;
 }
 
 /* Mobile-responsive footer */
@@ -120,4 +123,13 @@ body {
   .graph-container {
     grid-template-columns: 1fr; /* Display graph items in a single column */
   }
+}
+
+.footer {
+  display: flex;
+  background-color: var(--secondary-color);
+  column-gap: 40%;
+  flex-direction: row;
+  justify-content: center;
+  box-shadow: -3px 3px black;
 }

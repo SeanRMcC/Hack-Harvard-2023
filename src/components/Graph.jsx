@@ -3,7 +3,7 @@ import React from 'react';
 // Import your graph functions here
 import { lineGraphDays30, lineGraphDays14, barGraphDays7, barGraphDays3 } from './GraphCalls.jsx';
 
-const user_id = "d55d0a60-c89d-4bd7-a113-b78ee1f79dfa";
+const user_id = "e144abdc-3e66-4623-9afd-66f9ff8d0b7e";
 
 function Graph() {
   return (

@@ -1,8 +1,13 @@
-export default function Home() {
+export default function Home(props) {
 
     return (
         <div className='home'>
-            home page
+            {props.isAuthenticated 
+                ? 
+                <h1 className="welcome"> Hello, {props.user.displayName}</h1>
+                :
+                <h1 className="welcome"> Please sign in to access TrendTrack </h1>
+            }
         </div>
     )
 }
