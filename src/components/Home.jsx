@@ -49,7 +49,7 @@ export default function Home(props) {
                 </> 
 
                 :
-                <h1 className="welcome"> Please sign in to access TrendTrack </h1>
+                <h1 className="welcome"> Please sign in to access FitFusion </h1>
             }
         </div>
     )

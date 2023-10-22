@@ -5,7 +5,7 @@ function Footer() {
                 <p>A project developed by Sean, James, & Will</p>
             </div>
             <div>
-                <p>TrendTrack Copyright 2023</p>
+                <p>FitFusion Copyright 2023</p>
             </div>
         </div>
     )
